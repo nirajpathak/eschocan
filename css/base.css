@@ -138,7 +138,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .allPages .eshocan_hero_section.indsutriesBanner{background-image: url(../img/industries/industries-banner.png);}
 .industries-partenr-client img{filter: grayscale(100%);}
 .industries-info-block{display: flex;justify-content: space-between;}
-.industries-info-head{font-size: 40px;line-height: 50px;margin-bottom: 0px;}
+.industries-info-head{font-size: 40px;line-height: 50px;margin-bottom: 50px;}
 .industries-info-block{margin-top:35px;}
 .industries-info-content-head{font-weight: bold;font-size: 20px;padding:0px 10px;color: #000;margin-bottom:15px}
 .industries-info-content-copy{color:#000;padding:0px 10px;}
@@ -216,6 +216,25 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .partners-testimonal.testimonial .prev-arrow, .partners-testimonal.testimonial .next-arrow{bottom:-71px;}
 /*testimonial end*/
 
+/*engineering*/
+.engineering-parent{display: flex;justify-content: space-between;margin:50px 0px;}
+.engineering-parent-block-head{font-size: 25px;color: #000;font-weight: bold;}
+.engineering-parent-block{padding: 0px 25px;}
+.engineering-parent-reverse{flex-direction: row-reverse;}
+.industries-we-focus{padding: 70px;}
+.industries-we-focus-parent{display: flex;justify-content: space-between;}
+.industries-we-focus-block{width: 48%;}
+.industries-we-focus-block img{display: block;width: 100%;}
+.industries-we-focus-block{position: relative;margin-bottom: 265px;}
+.industries-we-focus-front{position: absolute;top: 0;}
+.industries-we-focus-block:hover .industries-we-focus-front img{transform:translateY(260px);transition: all 0.5s ease-in;}
+.industries-focus-content{position: absolute; top:100px;width: 100%;left:50px;}
+.industries-focus-content h3{color: #fff;font-size:55px;}
+.divide-line{width: 200px;height: 2px;background-color: #fff;border-radius: 3px;margin: 20px 0px;}
+.view-more{color:#fff; font-size: 16px;visibility: hidden;}
+.industries-we-focus-block:hover .industries-we-focus-front .view-more{visibility: visible;}
+/*engineering end*/
+
 
 /*Footer*/
     footer{background: #F4FAFF;padding:40px 0px 10px;}
@@ -246,6 +265,22 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 /*Responsive CSS*/
 
 @media(max-width: 991px) {
+    /*Vishal Responsive*/
+        .engineering-parent, .industries-we-focus-parent{display: block;}
+        .engineering-parent img{width: 100%;display: block;}
+        .industries-we-focus {padding: 15px;}
+        .industries-we-focus-block{width: 100%;margin-bottom: 217px;}
+        .engineering-parent-block{padding: 0px;}
+        .engineering-parent-block{margin-top:30px;}
+        .engineering-parent-block .hero-btn img{width: auto;}
+        .industries-focus-content{top:50px;left:0px;padding: 0px 10px;}
+        .industries-focus-content h3{font-size: 33px;}
+        .divide-line{margin: 10px 0px;}
+        .industries-we-focus-block:hover .industries-we-focus-front img { transform: translateY(185px);}
+        .view-more{visibility: visible;}
+        .engineering-parent-reverse:last-child{margin: 0px 0px;}
+
+    /*Vishal Responsive end*/
     .industries-info, .why-eshocan, .project-discuss, .automative-expertise {padding: 50px 20px;}
     .industries-info-block, .why-eshocan-parent, .project-discuss, .project-discuss,
     .project-discuss-block .project-disccuss-form{display: block;}
