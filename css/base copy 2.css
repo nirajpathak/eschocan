@@ -59,7 +59,7 @@ html {scroll-behavior: smooth;}
     .eshocan_hero_desc{flex-basis:50%;border-radius:10px;margin-left:5%;margin-top:10%;box-sizing:border-box;transition:0.5x}
     .eshocan_hero_desc h1{font-family:Merriweather;font-style:normal;font-weight:700;font-size:57px;line-height:72px;color:#FFF;margin:30px 0px}
     .eshocan_hero_desc h4{font-family:Merriweather;font-style:normal;font-weight:300;font-size:29px;line-height:36px;color:#FFF}
-    .eshocan_hero_desc h5{font-family:Open Sans;font-style:normal;font-weight:400;font-size:20px;line-height:27px;color:#FFF}
+    .eshocan_hero_desc h5{font-family:Open Sans;font-style:normal;font-weight:400;font-size:20px;line-height:27px;color:#FFF;margin-right: 20%;}
     .eshocan_hero_desc p{font-family:Open Sans;font-style:normal;font-weight:600;font-size:34px;line-height:46px;color:#FFF}
     .eshocan_hero_media{float:right;filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));border-radius:2%;transform:rotate(20Deg);position:absolute;top:-1%;margin-left:50%;z-index:1}
     .eshocan_hero_media_small{display:inline-block;height:10%;margin-left:0}
@@ -108,9 +108,10 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 /*Industries in Focus end*/
 
 /*Partner and client*/
-.partner-client{text-align: left;padding:50px 0px;background:url(../img/Rectangle.png) top center no-repeat;background-size:100% 100%;}
+.partner-client{text-align: left;padding:50px 0px;background:url(../img/Rectangle.png) top center no-repeat;background-size:100% 100%; margin-top: -50px;}
 .partner-client h2{padding-left: 35px;}
-.partner-slider img{margin: 0 auto;display: block;max-width: 100%;}
+.partner-slider img{margin: 0 auto;display: block;max-width: 100%;margin-top: 40px;margin-left: -10px;}
+.partner-client-company{text-align: left;padding:50px 0px;background-size:100% 100%; margin-top: -50px;}
 /*Partner and client end*/
 
 /*Partner Testimonial*/
@@ -245,6 +246,42 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 
 /*Services end*/
 
+/*company*/
+.company_middle_card{text-align: center;padding: 200px;background: url(../img/Company/main.png)top no-repeat; background-size: 100% 100%; margin-bottom: 50px;margin-top: 20px;}
+.company_middle_card h2{font-family: 'Open Sans';  font-style: normal;  font-weight: 600;  font-size: 39px;  line-height: 53px;  letter-spacing: 0.06em;  text-transform: capitalize; color: #FFF;  }
+.company_middle_card p{font-family: 'Open Sans';  font-style: normal;  font-weight: 400;  font-size: 20px;  line-height: 27px;  text-align: justify;    color: #FFF;}
+.industries-info-content-copy-company{padding:0px 10px;margin-left: 50px;font-weight: 400; margin-top: 20px;    font-size: 20px;    line-height: 27px;    text-align: justify;    color: #6F6F6F;}
+.who-we-are-company{padding: 100px;text-align: center;}
+.who-we-are-company-parent{display: flex;justify-content: space-between;background: #FFFFFF;  box-shadow: 2px 2px 32px rgba(0, 0, 0, 0.25);  border-radius: 17px;padding: 50px;}
+.who-we-are-company-parent h1{font-family: 'Open Sans';  font-style: normal;  font-weight: 600;  font-size: 45px;  line-height: 53px;  text-align: center;  text-transform: capitalize;  color: #0E4C92;}
+.who-we-are-company-parent p{font-family: 'Open Sans';  font-style: normal;  font-weight: 400;  font-size: 23px; line-height: 27px;  text-align: center;  text-transform: capitalize;    color: #6F6F6F;}
+.who-we-are-company-child {padding: auto;}
+.company-info-content-head-auto{font-weight: bold;font-size: 25px;padding:0px 10px;color: #EA5E00;padding-left: 10px; padding-bottom: 10px;}
+.company-info-content-head-auto-main{font-weight: bold;font-size: 25px;padding:0px 10px;color: #EA5E00;padding-left: 10px; padding-bottom: 10px;margin-left: 30px;}
+
+/*internship*/
+.industries-info-block-intership{display: flex;justify-content:space-around;text-align: center;margin-top: 35px;align-items: center;}
+.video-internship{transform: rotate(-20Deg);}
+.industries-info-content-block-internship{margin: 20px;text-align: center;box-shadow: 1px 1px 7px rgba(168, 168, 168, 0.25);padding: 50px;border-radius: 19px;height: 220px;width: 250px;}
+.industries-info-content-block-internship:hover{box-shadow: 4px 4px 44px rgba(48, 48, 48, 0.25);background: linear-gradient(to bottom, #fff 95%, #1DA1F2 5%);}
+.internship-info-content-head-auto{font-weight: bold;font-size: 25px;padding:0px 10px;color: #000;padding-left: 10px; padding-bottom: 10px;padding-top: 10px;}
+.card-title {
+  display: block;
+  text-align: center;
+  color: #fff;
+  background-color: #1DA1F2;
+  padding: 2%;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  visibility: hidden; 
+}
+.industries-info-content-block-internship:hover .card-title{visibility: visible;}
+.intership-application-form{display: flex; padding: auto;padding: 20px;}
+
+/*refer a freind*/
+.video-referafrnd{transform: rotate(-20Deg);margin-left: -100px}
+.referafrnd-info{display: flex;padding: auto;padding: 50px;justify-content: space-between;margin-top: 50px;}
+.referafrnd-info-child{padding: 10px;}
 
 /*Footer*/
     footer{background: #F4FAFF;padding:40px 0px 10px;}
@@ -339,7 +376,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .trans-info-point-head::before{content: '';display: block;width:52px;height:40px;border-radius: 8px;border: 0px solid #9DCBFF;background-color: rgba(157, 203, 255, 0.4);;position: absolute;left: 0px;z-index: -1;transform: skew(20deg);}
 
 /*Aerospace*/
-.aero-info-point{margin-top:70px}
+.aero-info-point{margin-top:70px;left: -25%;position: relative;margin-right: 90px;}
 .aero-info-point-head{font-family: 'Merriweather';font-style: normal;font-weight: 700;font-size: 25px;line-height: 31px;letter-spacing: 0.06em;color: #000000;margin-top: 50px;}
 .aero-info-point ul li{position:relative;color:#858585;font-size: 14px;line-height: 19px;margin-bottom: 2px;margin-left: 30px;}
 .aero-info-point ul li:before{content: '';display: block;width:7px;height:7px;border-radius: 100px;border: 2px solid #858585;background-color: #858585;position: absolute;left: -20px;top:4px}
@@ -413,7 +450,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .flip-card-front {
   background-color: transparent;
   color: black;
-  background-position: center;background-size: 100% 100%;
+  background-position: center;background-size: 100% 100%;z-index: -1;
 }
 
 .pd {
@@ -440,13 +477,25 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
   background-image: url(../img/Automotive/ADAS.png);
 }
 
+.e_adas {
+  background-image: url(../img/Expertise/ADAS_m.png);
+}
+
+.e_hmi {
+  background-image: url(../img/Expertise/HMI_m.png);
+}
+
+.e_mad {
+  background-image: url(../img/Expertise/MAD_m.png);
+}
+
 .flip-card-back {
   background-color: transparent;
   color: white;
   transform: rotateY(180deg);
   background-image: url(../img/Automotive/back.png);
   background-position: center;background-size: 100% 100%;
-  z-index: 9;
+  
 }
 .flip-card-back h1{
   margin-top: 20%;
@@ -488,10 +537,15 @@ margin-left: 2px;
 .card-block h2{color:#000;text-align: center;font-size: 25px;line-height: 31px; }
 .card-block-img{margin: 0 auto;display: block; margin-top: 20%;margin-bottom: 10px;}
 
+.card-block:hover .card-listing li{color:#FD5F00;}
+.card-block:hover .card-listing {padding-bottom: 70px;}
+.card-block:hover h2{color:#0E4C92}
+.card-block:hover .card-copy{color:#0E4C92}
+.card-block:hover .card-block-img{margin-top: 18%;}
 .card-listing-parent{padding: 10% 0% 20% 0%;}
 
 
-.card-listing li{color:#000;font-size: 14px;font-weight: 300;line-height: 22px;margin-bottom: 20px;padding-left: 10%;padding-right: 10%;}
+.card-listing li{color:#000;font-size: 14px;font-weight: 300;line-height: 22px;margin-bottom: 10px;padding-left: 10%;padding-right: 10%;}
 .card-listing{padding: 0px 60px;padding-left: 10%}
 .card-copy{color:#000;margin-bottom: 20px;margin-left: 20px; padding-left: 10%; padding-right: 20%;}
 
@@ -604,6 +658,10 @@ margin-left: 2px;
     .people-culture-copy-block-question{font-size:25px;line-height:30px;}
     .people-culture-copy-block-copy{font-size:18px;line-height:25px;}
     .col-sup-mid p{font-size: 15px;line-height: 22px;}
+    .who-we-are-company-parent{display: block; padding: 10px;}
+    .who-we-are-company-parent h1{font-size: 27px;line-height: 32px;}
+    .who-we-are-company-parent p{font-size: 17px;line-height: 26px;}
+    .industries-info-block-intership{display: block;}
 }
 /*Responsive CSS end*/
 
