@@ -411,10 +411,30 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 
 /*AutomotiveEmbedded*/
 
+
+
 /*Teams*/
 .industries-info-content-block-teams{margin: 20px;text-align: center;}
 .industries-info-content-copy-teams{color:#000;padding:0px 10px;text-align: justify;}
 
+/*RnD*/
+.rnd_main_img{width:250px; height: 250px;}
+.industries-info-content-copy-rnd{
+  font-family: 'Merriweather',sans-serif;
+  line-height: 34px;
+  font-weight: 400;
+font-size: 16px;
+  padding:0px 10px;text-align: justify;
+  color: #000000;
+  }
+
+  /*industry4*/
+  .industries-info-content-copy-industry4{font-family: 'Merriweather',sans-serif;
+    line-height: 26px;
+    font-weight: 400;
+  font-size: 16px;
+    padding:0px 10px;text-align: justify;
+    color: #000000;}
 
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
