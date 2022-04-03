@@ -112,6 +112,12 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .partner-client h2{padding-left: 35px;}
 .partner-slider img{margin: 0 auto;display: block;max-width: 100%;margin-top: 40px;margin-left: -10px;}
 .partner-client-company{text-align: left;padding:50px 0px;background-size:100% 100%; margin-top: -50px;}
+
+.homepage{text-align: left;padding:50px 0px;background: #FFF;}
+.homepage h2{padding-left: 35px;}
+.homepage img{margin: 0 auto;display: block;max-width: 100%;margin-top: 40px;margin-left: -10px;}
+.homepage{text-align: left;padding:50px 0px;background-size:100% 100%; margin-top: -50px;}
+
 /*Partner and client end*/
 
 /*Partner Testimonial*/
@@ -305,7 +311,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
   color: #3F7EB3;
 margin-bottom: 30px;}
 .casestudy-col{  flex-basis: 30%;  border-radius: 10px;  margin-bottom: 30px;  position: relative;  overflow: hidden;  background: #000;}
-.casestudy-col img{  width: 101%;  display:block; /* converts the edges to round*/}
+.casestudy-col img{  width: 101%;  display:block; height: 80%;/* converts the edges to round*/}
 .casestudy-col p{
   color: #fff;
   font-size: 20px;
@@ -438,8 +444,10 @@ color: #000000;
   .automative-expertise-block-parent-hmi{display: flex;justify-content: space-between;margin: 100px;}
 
 /*Mobile application developement*/
-.industries-info-content-copy-mobile-app-develop{color:#000;padding:0px 10px;margin-left: 50px;font-weight: 400;
+.industries-info-content-copy-mobile-app-develop{color:#393939;padding:0px 10px;margin-left: 50px;font-weight: 400;
   font-size: 20px;
+  font-weight: 400;
+  font-family: 'Open Sans';
   line-height: 27px;
   text-align: justify;}
 .industries-info-head-mobile-app-develop{font-size: 40px;line-height: 50px;margin-bottom: 0px; margin-top: 100px;}
@@ -448,7 +456,7 @@ color: #000000;
 
 
 /*product development*/
-.automative-expertise-block-parent-pd{display: flex;justify-content:space-around}
+.automative-expertise-block-parent-pd{display: flex;justify-content:space-around;}
 
 /*Virtual Simulation*/
 .industries-info-block-vs{display: flex;justify-content: space-between;text-align: justify;margin-top: 35px;align-items: center;}
@@ -523,6 +531,8 @@ color: #000000;
 /*Teams*/
 .industries-info-content-block-teams{margin: 20px;text-align: center;}
 .industries-info-content-copy-teams{color:#000;padding:0px 10px;text-align: justify;}
+.teams_img{display: block; width: 100%;padding: auto;}
+.teams_img_responsive{display: none;}
 
 /*RnD*/
 .rnd_main_img{width:250px; height: 250px;}
@@ -550,6 +560,11 @@ font-size: 16px;
   width: 400px;
   height: 400px;
   perspective: 1000px;
+}
+
+.fcpd{
+  width: 600px;
+  height: 500px;
 }
 
 .flip-card-inner {
@@ -616,6 +631,22 @@ font-size: 16px;
   background-image: url(../img/Expertise/MAD_m.png);
 }
 
+.product_dev_engg {
+  background-image: url(../img/productdevelopement/Group_3826.png);
+}
+
+.product_dev_vs{
+  background-image: url(../img/productdevelopement/vir_sim.png);
+}
+
+.product_dev_dm{
+  background-image: url(../img/productdevelopement/Digitalmanu.png);
+}
+
+.product_dev_plm{
+  background-image: url(../img/productdevelopement/Productlifemang.png);
+}
+
 .flip-card-back {
   background-color: transparent;
   color: white;
@@ -655,21 +686,27 @@ margin-left: 2px;
   text-align: left;
 }
 
+.flip-card-back .flip-card-pointer{
+  color:#FFFFFF;
+  padding-left: 8%;
+}
+
 /*Card animation*/
 
 
 .card-section{display: flex;justify-content: space-between;}
-.card-block{width:100%;height:100%;background-image: url(../img/Automotive/whiteblue.png);background-position: center;background-size: 100% 100%;background-repeat: no-repeat; transition: 0.8s;}
+.card-block{flex-basis: 100%;background-image: url(../img/Automotive/whiteblue.png);background-position: center;background-size: 100% 100%;background-repeat: no-repeat; transition: 0.5s;}
 .card-block:hover{background-image: url(../img/Automotive/whiteblueback.png);}
-.card-block h2{color:#000;text-align: center;font-size: 25px;line-height: 31px; }
+.card-block h2{color:#000;text-align: center;font-size: 25px;line-height: 31px; padding: 25px;}
 .card-block-img{margin: 0 auto;display: block; margin-top: 20%;margin-bottom: 10px;}
 
 .card-block:hover .card-listing li{color:#FD5F00;}
-.card-block:hover .card-listing {padding-bottom: 70px;}
+/*.card-block:hover .card-listing {padding-bottom: 70px;}*/
 .card-block:hover h2{color:#0E4C92}
 .card-block:hover .card-copy{color:#0E4C92}
-.card-block:hover .card-block-img{margin-top: 18%;}
-.card-listing-parent{padding: 10% 0% 20% 0%;}
+/*.card-block:hover .card-block-img{margin-top: 18%;}*/
+.card-listing-parent{padding: 10% 0% 30% 0%;}
+.card-block:hover .card-listing-parent{padding: 10% 0% 30% 1%;}
 
 
 .card-listing li{color:#000;font-size: 14px;font-weight: 300;line-height: 22px;margin-bottom: 10px;padding-left: 10%;padding-right: 10%;}
@@ -790,7 +827,11 @@ margin-left: 2px;
     .who-we-are-company-parent p{font-size: 17px;line-height: 26px;}
     .industries-info-block-intership{display: block;}
     .row{display: block;}
-    
+    .card-section{display: block;}
+    .teams_img{display: none;}
+    .teams_img_responsive{display: block;padding: auto;width: 80%;}
+    .industries-info-block-vs{display: block;}
+    .automative-expertise-block-parent{display: block;padding: auto;}
 }
 
 /*Responsive CSS end*/
