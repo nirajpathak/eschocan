@@ -98,16 +98,20 @@ $( ".close .fa" ).click(function() {
 });
 
 $( ".eshocan_nav_links ul li" ).click(function(e) {
-    if ($('.eshocan_nav_lvl-1').is(':visible')) {
-        $(".eshocan_nav_lvl-1").slideUp(300);
-        $(".plusminus").text('+');
-    }
-    if ($(this).find(".eshocan_nav_lvl-1").is(':visible')) {
-        $(this).find(".eshocan_nav_lvl-1").slideUp(300);
-        $(this).children(".plusminus").text('+');
-    } else {
-        $(this).find(".eshocan_nav_lvl-1").slideDown(300);
-        $(this).children(".plusminus").text('-');
-    }
+    e.preventDefault();
+    if ($(window).width() < 767){
+        if ($('.eshocan_nav_lvl-1').is(':visible')) {
+            $(".eshocan_nav_lvl-1").slideUp(300);
+            $(".plusminus").text('+');
+        }
+        if ($(this).find(".eshocan_nav_lvl-1").is(':visible')) {
+            $(this).find(".eshocan_nav_lvl-1").slideUp(300);
+            $(this).children(".plusminus").text('+');
+        } else {
+            $(this).find(".eshocan_nav_lvl-1").slideDown(300);
+            $(this).children(".plusminus").text('-');
+        }
+    }    
+    
 });
 
