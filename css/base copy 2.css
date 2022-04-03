@@ -173,11 +173,11 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .why-eshocan .who-we-are-bottom{margin-top: 0px;}
 .why-eshocan-block .who-we-are-bottom ul li{box-shadow:0 0 20px rgb(136 136 136 / 69%);width: 50%; margin: 10px;border-radius: 20px;}
 .why-eshocan-copy{font-size: 18px; line-height:30px;color:#0E4C92;}
-.project-discuss{padding: 70px;display: flex;justify-content: space-between;background: url(../img/discuss-bg.png)top no-repeat; background-size: 100% 100%;}
+.project-discuss{padding: 70px;display: flex;justify-content: space-between;background: url(../img/discuss-bg.png) top no-repeat; background-size: 100% 100%;}
 .project-discuss-block{width: 50%;}
 .project-discuss h2{font-size: 48px;color:#fff;}
 .project-discuss-block .project-disccuss-form{display: flex;justify-content: space-between;}
-.discuss-form{background: url(../img/discuss-form-bg.png)top no-repeat; background-size: 100% 100%;padding: 60px;}
+.discuss-form{background: url(../img/discuss-form-bg.png) top no-repeat; background-size: 100% 100%;padding: 60px;}
 .form-block-group{width: 50%;margin-bottom: 10px;}
 .form-group{margin-bottom: 15px;}
 .form-group label{display: block;color: #0E4C92; margin-bottom: 5px;font-weight: bold;}
@@ -253,7 +253,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 /*Services end*/
 
 /*company*/
-.company_middle_card{text-align: center;padding: 200px;background: url(../img/Company/main.png)top no-repeat; background-size: 100% 100%; margin-bottom: 50px;margin-top: 20px;}
+.company_middle_card{text-align: center;padding: 200px;background: url(../img/Company/main.png) top no-repeat; background-size: 100% 100%; margin-bottom: 50px;margin-top: 20px;}
 .company_middle_card h2{font-family: 'Open Sans';  font-style: normal;  font-weight: 600;  font-size: 39px;  line-height: 53px;  letter-spacing: 0.06em;  text-transform: capitalize; color: #FFF;  }
 .company_middle_card p{font-family: 'Open Sans';  font-style: normal;  font-weight: 400;  font-size: 20px;  line-height: 27px;  text-align: justify;    color: #FFF;}
 .industries-info-content-copy-company{padding:0px 10px;margin-left: 50px;font-weight: 400; margin-top: 20px;    font-size: 20px;    line-height: 27px;    text-align: justify;    color: #6F6F6F;}
