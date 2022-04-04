@@ -187,7 +187,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .form-block-group-accept .form-group input{width:35px;height:35px;}
 .form-block-group-accept .form-group p{padding:0px 10px;font-size: 13px;}
 .form-block-group-accept .form-group input[type="submit"]{width: auto;background-color:#fff;padding: 15px 45px;font-size:22px;color:#1DA1F2;border:1px solid #1DA1F2; border-radius: 100px;height: auto;}
-.form-group-submit{display: flex;justify-content: end;}
+.form-group-submit{display: flex;}
 .project-discuss-head p {font-size: 24px;line-height: 32px;color: #fff;}
 .automative-expertise{padding: 70px;}
 .automative-img-block{position: relative;padding: 10px;}
@@ -280,8 +280,8 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 /*internship*/
 .industries-info-block-intership{display: flex;justify-content:space-around;text-align: center;margin-top: 35px;align-items: center;}
 .video-internship{transform: rotate(-20Deg);margin-top: 100px;}
-.industries-info-content-block-internship{margin: 20px;text-align: center;box-shadow: 1px 1px 7px rgba(168, 168, 168, 0.25);padding: 50px;border-radius: 19px;height: 220px;width: 250px;}
-.industries-info-content-block-internship:hover{box-shadow: 4px 4px 44px rgba(48, 48, 48, 0.25);background: linear-gradient(to bottom, #fff 95%, #1DA1F2 5%);height: 220px;width: 250px;}
+.industries-info-content-block-internship{transition: .3s;margin: 20px;text-align: center;box-shadow: 1px 1px 7px rgba(168, 168, 168, 0.25);padding: 50px;border-radius: 19px;height: 220px;width: 250px;}
+.industries-info-content-block-internship:hover{   box-shadow: 0px 20px 40px rgb(0 0 0 / 40%);transform: scale(1.05,1.05);background: linear-gradient(to bottom, #fff 95%, #1DA1F2 5%);height: 220px;width: 250px;}
 .internship-info-content-head-auto{font-weight: bold;font-size: 25px;padding:0px 10px;color: #000;padding-left: 10px; padding-bottom: 10px;padding-top: 10px;}
 .card-title {
   display: block;
@@ -307,17 +307,20 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 }
 .application_form input{width:35px;height:35px;}
 .application_form textarea{border: 0px;background-color: #eee;padding: 5px;font-size: 16px;}
-.application_form label{display: block;color: #0E4C92; margin-bottom: 5px;font-weight: bold;}
+.application_form label{display: block;color: #0E4C92; margin-bottom: 5px;font-weight: bold;font-size: 13px;}
 .application_form input{width:100%;height:30px;padding:5px;border: 0px;background-color: #eee;font-size: 14px;}
+.application_form input[type="checkbox"]{width:25px;height:25px;padding:5px;border: 0px;background-color: #eee;font-size: 14px;}
 .application_form textarea{border: 0px;background-color: #eee;padding: 5px;font-size: 16px;}
-.application_form .check {display: flex;}
-
- .check .checkmark {
+.application_form .check {display: grid;grid-template-columns: repeat(2, 1fr);}
+.application_form .check > div{display: flex;align-items:flex-start;justify-content: flex-start;margin-bottom: 10px;}
+.application_form .check > div label{margin-left: 5px;}
+.application_form .form-group-head{margin-bottom: 20px;display: block;}
+.check .checkmark {
   height: 2px;
   width: 2px;
   background-color: #eee;
 }
-.internship-submit{margin-top: 10px; margin-left:0%; margin-right: 20%;background: #1DA1F2;}
+.internship-submit{margin-top: 10px; margin-left:0%; margin-right: 20%;}
 
 /*refer a freind*/
 .video-referafrnd{transform: rotate(-20Deg);margin-left: -100px;margin-top: 100px;}
@@ -355,6 +358,16 @@ color: #0E4C92;
 .form-block-group-accept-refer .form-group-refer p{padding:0px 10px;font-size: 13px;}
 .form-block-group-accept-refer .form-group-refer input[type="submit"]{width: auto;background-color:#fff;padding: 15px 45px;font-size:22px;color:#1DA1F2;border:1px solid #1DA1F2; border-radius: 100px;height: auto;}
 .form-group-submit-refer{display: flex;justify-content: end;}
+.form-group-submit-refer input[type="submit"], .internship-submit input[type="submit"]{
+  width: auto;
+  background-color: #fff;
+  padding: 15px 45px;
+  font-size: 22px;
+  color: #1DA1F2;
+  border: 1px solid #1DA1F2;
+  border-radius:100px;
+  height: auto;
+}
 .project-discuss-head-refer p {font-size: 24px;line-height: 32px;color: #fff;}
 
 /*****case study trail********/
@@ -377,7 +390,7 @@ margin-bottom: 30px;}
 .casestudy-col img{  width: 101%;  display:block; height: 80%;/* converts the edges to round*/}
 .casestudy-col p{
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .casestudy-col:hover p{
@@ -424,16 +437,17 @@ margin-bottom: 30px;}
 
 .casestudy_pages{
   padding: 50px;
-  text-align: justify;
-  padding-right: 30%;
+  width: 80%;
+  margin: 0 auto;
 }
 .casestudy_pages img{
   position:relative;
   align-items: center;
   text-align: center;
-  left: 10%;
   padding: 10px;
   width: 60%;
+  margin:  0 auto;
+  display: block;
 }
 .fig{
   text-align: center;
@@ -482,13 +496,15 @@ color: #000000;
     .eshocan_social_media ul{display: flex;justify-content:flex-start;align-items: flex-start;}
     .eshocan_social_media ul li {margin-right: 20px;}
     .eshocan_social_media ul li a i{font-size: 30px; color:#000}
-    .eshocan_copy_write{font-family:Open Sans;text-align: center;font-weight: bold;font-size: 12px;line-height: 14px;text-transform: capitalize;color:#000;}
+    .eshocan_copy_write{font-family:Open Sans;margin-right:10%;text-align: center;font-weight: bold;font-size: 12px;line-height: 14px;text-transform: capitalize;color:#000;}
     .eshocan_footer_copy{padding:0px 0px;}
     .eshocan_footer_links_block h2{text-align: left;margin-bottom: 10px;}
     .contact-details{margin-top:25px}
     .contact-details i{color:#3F7EB3; margin-right: 10px;}
     .contact-location li{display: flex;align-items: center;}
     .contact-location li img{margin-right: 10px;}
+    .copyright-design-develope{padding:0px 15px;display: flex;justify-content: right;align-items: center;}
+
 /*Footer end*/
 
 /*platform development*/
@@ -523,8 +539,8 @@ color: #000000;
 .industries-info-head-mobile-app-develop{font-size: 40px;line-height: 50px;margin-bottom: 0px; margin-top: 100px;}
 .mobile_app_dev_process{align-items: right;margin-top: 50px;margin-bottom: 50px;margin-left: 0px;}
 .industries-info-content-mobile-app-dev{margin-left:50px;}
-
-
+.expert-in-mobile .expert-in-mobile-img{display: block;width: 100%;}
+.img-reponsive{display: block;width: 100%;}
 /*product development*/
 .automative-expertise-block-parent-pd{display: flex;justify-content:space-around;}
 
@@ -546,6 +562,7 @@ color: #000000;
 .automotive-info-point ul li{position:relative;color:#0E4C92;font-size: 16px;line-height: 25px;margin-bottom: 20px;}
 .automotive-info-point ul li:before{content: '';display: block;width:10px;height:10px;border-radius: 0px;border: 2px solid #3F7EB3;;position: absolute;left: -26px;top:6px}
 
+
 /*Electric Moblity*/
 .em-info-point{margin-top:70px}
 .em-info-point-head{font-family: 'Merriweather';font-style: normal;font-weight: 700;font-size: 25px;line-height: 31px;letter-spacing: 0.06em;color: #000000;margin-top: 15px;}
@@ -565,7 +582,6 @@ color: #000000;
 .aero-info-point-head{font-family: 'Merriweather';font-style: normal;font-weight: 700;font-size: 25px;line-height: 31px;letter-spacing: 0.06em;color: #000000;margin-top: 50px;}
 .aero-info-point ul li{position:relative;color:#858585;font-size: 14px;line-height: 19px;margin-bottom: 2px;margin-left: 30px;}
 .aero-info-point ul li:before{content: '';display: block;width:7px;height:7px;border-radius: 100px;border: 2px solid #858585;background-color: #858585;position: absolute;left: -20px;top:4px}
-.aero-info-block-img{left: -30%;position: relative;}
 .aero-info-point-head::before{content: '';display: block;position: relative;left: -12px;z-index: -1;
   width:40px;
   height:40px;
@@ -577,6 +593,7 @@ color: #000000;
   transform: rotate(20deg);
   top: 40px; 
 }
+.aero-info-block-img {display: block;width: 100%;}
 
 /*Healthcare*/
 .healthcare-info-block{display: flex;justify-content:space-between}
@@ -593,7 +610,7 @@ color: #000000;
   margin-bottom: 20px;
   }
 .healthcare-info-point ul li:before{content: '';display: block;width:7px;height:7px;border-radius: 100px;border: 2px solid #24D4E5;position: absolute;left: -20px;top:4px;}
-
+.automotive-embed .card-block h2{padding: 15px 25px 10px; margin-bottom: 0px;}
 /*AutomotiveEmbedded*/
 
 
@@ -630,6 +647,7 @@ font-size: 16px;
   width: 400px;
   height: 400px;
   perspective: 1000px;
+  padding: 10px;
 }
 
 .fcpd{
@@ -736,7 +754,7 @@ font-style: normal;
 font-weight: 200;
 font-size: 15px;
 line-height: 20px;
-text-align: justify;
+text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 margin-left: 2px;
@@ -756,8 +774,8 @@ margin-left: 2px;
 .flip-card-back a{
   color:#FFFFFF;
   margin-top:10px;
-  margin-right: 65%;
-  text-align: left;
+  margin-right: 0%;
+  text-align: center;
 }
 
 .flip-card-back .flip-card-pointer{
@@ -771,7 +789,7 @@ margin-left: 2px;
 .card-section{display: flex;justify-content: space-between;}
 .card-block{flex-basis: 100%;background-image: url(../img/Automotive/whiteblue.png);background-position: center;background-size: 100% 100%;background-repeat: no-repeat; transition: 0.5s;}
 .card-block:hover{background-image: url(../img/Automotive/whiteblueback.png);}
-.card-block h2{color:#000;text-align: center;font-size: 25px;line-height: 31px; padding: 25px;}
+.card-block h2{color:#000;text-align: center;font-size: 22px;line-height: 31px; padding: 89px 25px 11px; margin-bottom: 15px;}
 .card-block-img{margin: 0 auto;display: block; margin-top: 20%;margin-bottom: 10px;}
 
 .card-block:hover .card-listing li{color:#FD5F00;}
@@ -790,13 +808,20 @@ margin-left: 2px;
 
 /*Responsive CSS*/
 @media(max-width: 991px) {
+    .intership-application-form{display: block;}
+    .application_form{width: 100%;margin-left: 0%;}
+    .copyright-design-develope{display: block;}
+    .flip-card{width: 100%;padding: 0px;}
+    .industries-info-head{margin-bottom: 20px;}
     .industries-info, .why-eshocan, .project-discuss, .automative-expertise {padding: 50px 20px;}
     .industries-info-block, .why-eshocan-parent, .project-discuss, .project-discuss,
     .project-discuss-block .project-disccuss-form{display: block;}
     .form-block-group{width: 100%;}
-    .discuss-form{padding:15px;}
-    .why-eshocan-block, .why-eshocan-block .who-we-are-bottom ul li, .project-discuss-block{width: 100%;}
+    .discuss-form{padding:15px;width: auto;}
+    .why-eshocan-block, .why-eshocan-block .who-we-are-bottom ul li{width: 100%;}
     .industries-info-block img{display: block;max-width: 100%;}
+    .project-discuss .project-discuss-block{width:auto;}
+    .project-discuss .discuss-form{background-color: #fff;}
     .eshocan_header .mobile-block{margin-top:0px;}
     nav{ padding: 0px 0px;  position: fixed;top: 0;right: 0;width: 20rem;z-index: 1099; overflow-x: hidden; overflow-y: scroll; background-color: #000; transform:translate(200%) ; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transform:translate(200%) ; -moz-transform:translate(200%) ; -ms-transform:translate(200%) ; -o-transform:translate(200%) ; }
     nav.active{ transform:translate(0%); -webkit-transform:translate(0%); -moz-transform:translate(0%); -ms-transform:translate(0%); -o-transform:translate(0%); }
@@ -906,8 +931,8 @@ margin-left: 2px;
     .teams_img_responsive{display: block;padding: auto;width: 80%;}
     .industries-info-block-vs{display: block;}
     .automative-expertise-block-parent{display: block;padding: auto;}
-    .casestudy_pages{padding-right: 10%;}
-    .casestudy_pages img{width: 100%; left:0%;padding-right: 10%;}
+    .casestudy_pages{padding:0px 15px;width: 100%;}
+    .casestudy_pages img{width: 100%; padding: 0px;}
 }
 
 /*Responsive CSS end*/
