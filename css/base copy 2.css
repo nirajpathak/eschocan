@@ -425,14 +425,19 @@ margin-bottom: 30px;}
 .casestudy_pages{
   padding: 50px;
   text-align: justify;
+  padding-right: 30%;
 }
 .casestudy_pages img{
   position:relative;
   align-items: center;
+  text-align: center;
   left: 10%;
   padding: 10px;
+  width: 60%;
 }
-
+.fig{
+  text-align: center;
+}
 .casestudy_pages h1{
   font-family: 'Merriweather';
 font-style: normal;
@@ -743,6 +748,10 @@ margin-left: 2px;
   margin-right: 65%;
   text-align: left;
 }
+.learn_more:hover{
+  text-decoration: underline;
+  font-weight:bolder;
+}
 
 .flip-card-back a{
   color:#FFFFFF;
@@ -897,6 +906,8 @@ margin-left: 2px;
     .teams_img_responsive{display: block;padding: auto;width: 80%;}
     .industries-info-block-vs{display: block;}
     .automative-expertise-block-parent{display: block;padding: auto;}
+    .casestudy_pages{padding-right: 10%;}
+    .casestudy_pages img{width: 100%; left:0%;padding-right: 10%;}
 }
 
 /*Responsive CSS end*/
