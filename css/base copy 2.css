@@ -454,11 +454,11 @@ margin-bottom: 30px;}
 }
 .casestudy_pages h1{
   font-family: 'Merriweather';
-font-style: normal;
-font-weight: 700;
-font-size: 39px;
-line-height: 49px;
-letter-spacing: 0.06em;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 49px;
+  letter-spacing: 0.06em;
 
 color: #000000;
 }
@@ -808,6 +808,10 @@ margin-left: 2px;
 
 /*Responsive CSS*/
 @media(max-width: 991px) {
+    header{position: relative;z-index:9999;}
+    .eshocan_hero_desc h5{margin-right:0px;}
+    .eshocan_hero_media .img {opacity: 0.3;filter: alpha(opacity=30);}
+    .eshocan_hero_section{background-image: none;}
     .intership-application-form{display: block;}
     .application_form{width: 100%;margin-left: 0%;}
     .copyright-design-develope{display: block;}
@@ -855,13 +859,13 @@ margin-left: 2px;
     .partners-testimonal.testimonial .partners-testimonal-block .block-img{position: inherit;top:auto;right: auto;margin: 0 auto 21px; width: 230px;}
     .partner-client{padding: 30px 0px;}
     .eshocan_hero_media{ margin-left:0%;transform:rotate(0Deg); -webkit-transform:rotate(0Deg); -moz-transform:rotate(0Deg); -ms-transform:rotate(0Deg); -o-transform:rotate(0Deg); }
-    .eshocan_hero_media .video{margin-top:0%;height: 65vh;border-radius: 0%;object-fit: cover;}
+    .eshocan_hero_media .video{margin-top:0%;height: 65vh;border-radius: 0%;object-fit: cover;opacity: 0.3;filter: alpha(opacity=30);}
     .blog-content-block p {font-size: 22px;line-height: 23px;}
     .blog-content-block{margin-bottom: 20px;}
     .blog-content-block:last-child{margin-bottom: 20px;}
     .testimonial .slick-prev, .testimonial .slick-next{bottom:-9%}
     .eshocan_social_media ul{justify-content: center;align-items: center;}
-    .eshocan_hero_section{min-height: 74vh;}
+    .eshocan_hero_section{min-height: auto;padding-bottom: 15px;background-color: #000;}
     .eshocan_hero_media_small img{ width: 22.5%; border-radius:0px ; -webkit-border-radius:0px ; -moz-border-radius:0px ; -ms-border-radius:0px ; -o-border-radius:0px ; }
     .eshocan_hero_media_small{display: flex;    justify-content: space-evenly;align-items: flex-start;}
     .eshocan_hero_desc h1{font-size: 26px;line-height: 43px;margin: 0px 0px;}
