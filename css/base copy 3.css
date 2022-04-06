@@ -61,7 +61,7 @@ html {scroll-behavior: smooth;}
     .eshocan_hero_desc h4{font-family:Merriweather;font-style:normal;font-weight:300;font-size:29px;line-height:36px;color:#FFF}
     .eshocan_hero_desc h5{font-family:Open Sans;font-style:normal;font-weight:400;font-size:20px;line-height:27px;color:#FFF;margin-right: 20%;}
     .eshocan_hero_desc p{font-family:Open Sans;font-style:normal;font-weight:600;font-size:34px;line-height:46px;color:#FFF}
-    .eshocan_hero_media{float:right;filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));border-radius:2%;transform:rotate(20Deg);position:absolute;top:-1%;margin-left:46%;z-index:1}
+    .eshocan_hero_media{float:right;filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));border-radius:2%;transform:rotate(20Deg);position:absolute;top:-1%;margin-left:50%;z-index:1}
     .eshocan_hero_media_small{display:inline-block;height:10%;margin-left:0}
     .eshocan_hero_media_small img{width:21.5%;border-radius:5%}
     .video{margin-top:-20%;width:195%;height:100vh;border-radius:12%}
@@ -895,6 +895,7 @@ margin-left: 2px;
 @media(max-width: 991px) {
     /*Vishal Responsive*/
     header{position: relative;z-index:9999;}
+    .eshocan_hero_desc h5{margin-right:0px;}
     .eshocan_hero_media .img {opacity: 0.3;filter: alpha(opacity=30);}
     .eshocan_hero_section{background-image:none;}
     .eshocan_header.darkHeader .eshocan_brand_logo{width: 140px;}
@@ -941,9 +942,11 @@ margin-left: 2px;
     .industries-info-block, .why-eshocan-parent, .project-discuss, .project-discuss,
     .project-discuss-block .project-disccuss-form{display: block;}
     .form-block-group{width: 100%;}
-    .discuss-form{padding:15px;}
-    .why-eshocan-block, .why-eshocan-block .who-we-are-bottom ul li, .project-discuss-block{width: 100%;}
+    .discuss-form{padding:15px;width: auto;}
+    .why-eshocan-block, .why-eshocan-block .who-we-are-bottom ul li{width: 100%;}
     .industries-info-block img{display: block;max-width: 100%;}
+    .project-discuss .project-discuss-block{width:auto;}
+    .project-discuss .discuss-form{background-color: #fff;}
     .eshocan_header .mobile-block{margin-top:0px;}
     nav{ padding: 0px 0px;  position: fixed;top: 0;right: 0;width: 20rem;z-index: 1099; overflow-x: hidden; overflow-y: scroll; background-color: #000; transform:translate(200%) ; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transform:translate(200%) ; -moz-transform:translate(200%) ; -ms-transform:translate(200%) ; -o-transform:translate(200%) ; }
     nav.active{ transform:translate(0%); -webkit-transform:translate(0%); -moz-transform:translate(0%); -ms-transform:translate(0%); -o-transform:translate(0%); }
