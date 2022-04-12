@@ -44,7 +44,7 @@ html {scroll-behavior: smooth;}
     .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li:hover > a::after{width: 100%;}
     .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li .eshocan_nav_lvl-2 li{padding:0px 0px;margin-bottom: 10px;}
     .eshocan_header.darkHeader   .eshocan_nav_links ul li a{font-size: 16px;}
-    .eshocan_header.darkHeader .eshocan_brand_logo{width: 130px;height: 35px;}
+    .eshocan_header.darkHeader .eshocan_brand_logo{width: 160px;height: 30px;}
     .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li .eshocan_nav_lvl-2 li::after{content: none;}
     .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li .eshocan_nav_lvl-2 li a{position: relative;}
     .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li .eshocan_nav_lvl-2 li a::before{ content: ''; display: inline-block;    position: absolute;left: -9px;top: 9px; width:5px; height:5px; background-color:#fff; border-radius:100px ; -webkit-border-radius:100px ; -moz-border-radius:100px ; -ms-border-radius:100px ; -o-border-radius:100px ; }
@@ -186,7 +186,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .form-block-group-accept .form-group{display: flex;}
 .form-block-group-accept .form-group input{width:35px;height:35px;}
 .form-block-group-accept .form-group p{padding:0px 10px;font-size: 13px;}
-.form-block-group-accept .form-group input[type="submit"]{width: auto;background-color:#fff;padding: 15px 45px;font-size:22px;color:#1DA1F2;border:1px solid #1DA1F2; border-radius: 100px;height: auto;}
+.form-block-group-accept .form-group input[type="submit"]{width: auto;background-color:#fff;padding: 10px 40px;font-size:22px;color:#1DA1F2;border:1px solid #1DA1F2; border-radius: 100px;height: auto;}
 .form-group-submit{display: flex;justify-content: end;}
 .project-discuss-head p {font-size: 24px;line-height: 32px;color: #fff;}
 .automative-expertise{padding: 70px;}
@@ -894,12 +894,14 @@ margin-left: 2px;
 
 @media(max-width: 991px) {
     /*Vishal Responsive*/
+    .eshocan_header.darkHeader .eshocan_nav_links ul li a, .eshocan_nav_links ul li > a{font-size: 16px;}
     header{position: relative;z-index:9999;}
     .eshocan_hero_desc h5{margin-right:0px;}
     .eshocan_hero_media .img {opacity: 0.3;filter: alpha(opacity=30);}
     .eshocan_hero_section{background-image:none;}
     .eshocan_header.darkHeader .eshocan_brand_logo{width: 140px;}
-    .eshocan_brand_logo, .eshocan_header.darkHeader .eshocan_brand_logo {width:140px;height: 60px;}
+    .eshocan_header.darkHeader{background-color: #fff;box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);}
+    .eshocan_brand_logo, .eshocan_header.darkHeader .eshocan_brand_logo {width:110px;height: 25px; object-fit: scale-down;}
     .homepage h2{padding: 0px;}
     .who-we-are p{text-align: left;}
     .eshocan_hero_desc h5{margin-right: 0px;}
@@ -954,9 +956,9 @@ margin-left: 2px;
     .mobile-block, .plusminus{display: block;}
     .mobile-block{margin-top:20px}
     .desktop-block{display: none;}
-    .icon-menu {display: block;color: #fff;width: 100px;height: 24px;}
+    .icon-menu {display: block;color: #000;width: 100px;height: 24px;}
     .people-culture{margin: 60px 0px 40px;}
-    .eshocan_header{padding: 10px 0px 0px 10px;align-items: center;display: flex;justify-content: space-between;}
+    .eshocan_header{padding: 10px 0px 10px 10px;align-items: center;display: flex;justify-content: space-between;background-color:#fff;}
     .people-culture-block, .eshocan_footer_links_block{display: block;}
     .eshocan_footer_links_block div{width: 100%;padding:0px 0px;}
     .people-culture-img-block img{max-width: 100%;}
