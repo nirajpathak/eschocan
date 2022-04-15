@@ -272,6 +272,10 @@
 
     <section class="current-job-opening"> 
         <h2 class="industries-info-head">Current job opening</h2>
+
+        <div class="JobListing">
+            <ul id="demo"></ul>
+        </div>
     </section><!---current-job-opening-->
 
     <section class="project-discuss"> 
@@ -403,11 +407,40 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.js"></script>
-
     <script>
         $(function() {
             AOS.init();
         });
+
+        let title, jobid, allDetails = [], mainObj ={};
+        var main = ""; 
+        let showObj = function(){
+            for(let prop in mainObj){
+                console.log(mainObj[prop])
+                main += 
+                '<li>' + 
+                    "<div> <p class='jobTitle'><span>Job Title : </span>" + "<a href=''>" + mainObj[prop].TITLE + "</a>" + "</p></div>" + 
+                    "<div> <p class='jobCity'>" + mainObj[prop].CITY + ", " + mainObj[prop].STATE  + "</p></div>" + 
+                
+                '</li>'
+            }
+
+            document.getElementById("demo").innerHTML = main;
+        }
+
+        fetch("career.json")
+             .then( function(resp){
+                return resp.json()
+             })
+             .then(function(data){
+                 console.log(data);
+                 title = data.TITLE;
+                 jobid = data.JOBID;
+                 mainObj = data.data;
+                 showObj(); 
+             })
+       
     </script>
+        
 </body>
 </html>
