@@ -34,6 +34,7 @@ html {scroll-behavior: smooth;}
     .eshocan_nav_links ul li > a{ font-family: Open Sans; color:#000; text-decoration:none; font-weight:500; font-size: 20px; line-height: 30px; transition:  0.2s ; -webkit-transition:  0.2s ; -moz-transition:  0.2s ; -ms-transition:  0.2s ; -o-transition:  0.2s ; }
     .eshocan_nav_links ul li:hover:after{width:100%}
     .eshocan_brand_logo{width:180px;height:35px;border-radius: 0px;transition: ease-in 0.3s all;-webkit-transition: ease-in 0.3s all;-moz-transition: ease-in 0.3s all;}
+    .eshocan_brand_logo_logofoot{width:100%;height:100%}
     .eshocan_nav_lvl-1{ opacity:0;background-color: rgba(248, 244, 244, 0.849); border-radius: 10px; position: absolute; padding: 20px 30px; min-width:250px; visibility: hidden; -webkit-transform: translateY(20px); transform: translateY(20px); -moz-transform: translateY(20px); -ms-transform: translateY(20px); -o-transform: translateY(20px); transition: all .3s linear; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; }
     .eshocan_nav_lvl-2{background-color: transparent;margin-top: 11px;padding-left: 20px;}
     .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li{text-align: left;padding: 8px 0px;display: block;}
@@ -45,6 +46,7 @@ html {scroll-behavior: smooth;}
     .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li .eshocan_nav_lvl-2 li{padding:0px 0px;margin-bottom: 10px;}
     .eshocan_header.darkHeader   .eshocan_nav_links ul li a{font-size: 16px;}
     .eshocan_header.darkHeader .eshocan_brand_logo{width: 160px;height: 30px;}
+    .eshocan_header.darkHeader nav{padding:8px 70px}
     .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li .eshocan_nav_lvl-2 li::after{content: none;}
     .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li .eshocan_nav_lvl-2 li a{position: relative;}
     .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li .eshocan_nav_lvl-2 li a::before{ content: ''; display: inline-block;    position: absolute;left: -9px;top: 9px; width:5px; height:5px; background-color:#fff; border-radius:100px ; -webkit-border-radius:100px ; -moz-border-radius:100px ; -ms-border-radius:100px ; -o-border-radius:100px ; }
@@ -67,6 +69,7 @@ html {scroll-behavior: smooth;}
     .video{margin-top:-20%;width:195%;height:100vh;border-radius:12%}
     .hero-btn{color:#000;font-size: 14px;line-height: 22px;box-shadow:0 0 5px rgb(136 136 136 / 69%);display:inline-flex;border-radius: 100px;justify-content: space-between;padding: 10px;align-items: center;margin-top:15px;}
     .hero-btn img{margin-right:7px;}
+    .hero-btn:hover {color: #1DA1F2; font-weight: bold; transform: scale(1.05, 1.05);}
     .eshocan_hero_main .hero-btn{background-color:#fff ;}
     .fa-arrow-circle-right{margin-left:15px}
 /*Hero Section Homepage end*/
@@ -216,15 +219,18 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .in-vehicale-copy{color:#000;margin-bottom: 20px;}
 .in-vehicale-listing li{color:#000;font-size: 14px;font-weight: 300;line-height: 22px;margin-bottom: 20px;}
 .in-vehicale-block-img{margin: 0 auto;display: block;}
+.in-vehicale-block-img-white{margin: 0 auto;display: none;}
 .in-vehicale-listing{padding: 0px 60px;}
 .in-vehicale-bullet-listing{list-style-type: disc;padding:0px 30px;}
 .in-vehicale-bullet-listing li{color:#000;font-size: 14px;font-weight: 300;line-height: 22px;margin-bottom: 20px;}
-.platform-development:hover{background: url(../img/invehicleinfo/platform-development.png) no-repeat;background-size: cover;transition: all 0.4s ease-in;}
-.application-development:hover{background: url(../img/invehicleinfo/application-development.png) no-repeat;background-size:cover;transition: all 0.4s ease-in;width: fit-content;}
-.smart-device:hover{background: url(../img/invehicleinfo/smart-device.png) no-repeat;background-size: cover;transition: all 0.4s ease-in;}
-.hmi-development:hover{background: url(../img/invehicleinfo/hmi-development.png) no-repeat;background-size: cover;transition: all 0.4s ease-in;}
-.testing-compliance:hover{background: url(../img/invehicleinfo/testing-complaince.png) no-repeat;background-size: cover;transition: all 0.4s ease-in;}
+.platform-development:hover{background: rgb(0, 0, 0, 0.7) url(../img/invehicleinfo/platform-development.png) no-repeat;background-size: cover;transition: all 0.1s ease-in;background-blend-mode: darken;}
+.application-development:hover{background: rgb(0, 0, 0, 0.7) url(../img/invehicleinfo/application-development.png) no-repeat;background-size:cover;transition: all 0.1s ease-in;background-blend-mode: darken;}
+.smart-device:hover{background: rgb(0, 0, 0, 0.7) url(../img/invehicleinfo/smart-device.png) no-repeat;background-size: cover;transition: all 0.1s ease-in;background-blend-mode: darken;}
+.hmi-development:hover{background: rgb(0, 0, 0, 0.7) url(../img/invehicleinfo/hmi-development.png) no-repeat;background-size: cover;transition: all 0.1s ease-in;background-blend-mode: darken;}
+.testing-compliance:hover{background: rgb(0, 0, 0, 0.85) url(../img/invehicleinfo/testing-complaince.png) no-repeat;background-size: cover;transition: all 0.1s ease-in;background-blend-mode: darken;}
 
+.in-vehicale-block:hover .in-vehicale-block-img{display: none}
+.in-vehicale-block:hover .in-vehicale-block-img-white{display: block}
 .in-vehicale-block:hover > h2, .in-vehicale-block:hover .in-vehicale-copy,
 .in-vehicale-block:hover .in-vehicale-listing li {color: #fff;}
 .in-vehicale-block:hover .in-vehicale-bullet-listing li {color: #fff;}
@@ -277,14 +283,14 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .industries-we-focus h2{margin-bottom: 20px;}
 .industries-we-focus-parent{display: flex;justify-content: space-between;}
 .industries-we-focus-block{width: 48%;}
-.industries-we-focus-block img{display: block;width: 100%;}
-.industries-we-focus-block{position: relative;margin-bottom: 265px;}
+.industries-we-focus-block img{display: block;}
+.industries-we-focus-block{position: relative;margin-bottom: 100px;}
 .industries-we-focus-front{position: absolute;top: 0;}
 .industries-we-focus-block:hover .industries-we-focus-front img{transform:translateY(260px);transition: all 0.5s ease-in;}
 .industries-focus-content{position: absolute; top:100px;width: 100%;left:50px;}
 .industries-focus-content h3{color: #fff;font-size:55px;}
 .divide-line{width: 200px;height: 2px;background-color: #fff;border-radius: 3px;margin: 20px 0px;}
-.view-more{color:#fff; font-size: 16px;visibility: hidden;}
+.view-more{color:#fff;font-size: 16px;visibility: hidden;}
 .industries-we-focus-block:hover .industries-we-focus-front .view-more{visibility: visible;}
 /*engineering end*/
 
@@ -637,7 +643,7 @@ color: #000000;
 .mobile_app_dev_process{align-items: right;margin-top: 50px;margin-bottom: 50px;margin-left: 0px;}
 .industries-info-content-mobile-app-dev{margin-left:50px;}
 .expert-in-mobile .expert-in-mobile-img{display: block;width: 100%;}
-.img-reponsive{display: block;width: 100%;}
+.img-reponsive{display: block;width: 70%;padding-left: 10%;}
 /*product development*/
 .automative-expertise-block-parent-pd{display: flex;justify-content:space-around;}
 
