@@ -126,10 +126,19 @@
             </div>
             <div class="eshocan_hero_media">
                 <div class="Hero_media_big one" id="div9" data-aos="fade-left" data-aos-duration="1000">
-                    <img class="video-referafrnd" src="img/referafrnd/hero.png"></img>
+                    <video autoplay loop muted class="video">
+                        <source src="img/career/hero.mp4" autoplay loop muted type="video/mp4">
+                        <source src="img/career/hero.mp4" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
             </div>
+            
         </div>
     </section><!--eshocan_hero_section-->
+    <div class="popup-video">
+        <span>&times;</span>
+        <video src="img/career/hero.mp4" autoplay muted controls></video>
+    </div>
 
     <section class="referafrnd-info" data-aos="fade-down" data-aos-duration="1000">
         <div class="referafrnd-info-child">
@@ -157,10 +166,6 @@
                             <input type="text">
                         </div>
                         <div class="form-group-refer">
-                            <label for="">DOB</label>
-                            <input type="date">
-                        </div>
-                        <div class="form-group-refer">
                             <label for="">Email Id:</label>
                             <input type="email">
                         </div>
@@ -169,20 +174,8 @@
                             <input type="phone">
                         </div>
                         <div class="form-group-refer">
-                            <label for="">Country</label>
+                            <label for="">Country of employement</label>
                             <input type="text">
-                        </div>
-                        <div class="form-group-refer">
-                            <label for="">AMP ID<br>(optional)</label>
-                            <input type="text">
-                        </div>
-                        <div class="form-group-refer">
-                            <label for="">Department</label>
-                            <input type="text">
-                        </div>
-                        <div class="form-group-refer">
-                            <label for="">Upload File:</label>
-                            <input type="file">
                         </div>
                     </div>
                     <div class="form-block-group-refer">
@@ -192,10 +185,6 @@
                             <input type="text">
                         </div>
                         <div class="form-group-refer">
-                            <label for="">DOB</label>
-                            <input type="date">
-                        </div>
-                        <div class="form-group-refer">
                             <label for="">Email Id:</label>
                             <input type="email">
                         </div>
@@ -203,13 +192,34 @@
                             <label for="">Phone No:</label>
                             <input type="phone">
                         </div>
-                        <div class="form-group-refer">
-                            <label for="">Country</label>
-                            <input type="text">
+                        <div class="form-group-checkbox">
+                            <label class="form-group-head refer">Area of interest</label>
+                            <div class="check">
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">US Citizen</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">H1B Visa</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">CPT/OPT</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label for="">TN Visa</label>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group-refer">
                             <label for="">Referral position</label>
                             <input type="text">
+                        </div>
+                        <div class="form-group-refer">
+                            <label for="">Upload File:</label>
+                            <input type="file">
                         </div>
                         <div class="form-group-refer">
                             <label for="">Candidate description</label>
@@ -298,40 +308,36 @@
             <div data-aos="fade-down" data-aos-duration="1200">
                 <h2><a href="">Our Services</a></h2>
                 <ul>
-                    <li><a href="">PLM Solutions</a></li>
-                    <li><a href="">IoT Solutions</a></li>
-                    <li><a href="">Technology Services</a></li>
-                    <li><a href="">Data Migration</a></li>
-                    <li><a href="">Project Management</a></li>
-                    <li><a href="">CAM Services</a></li>
+                    <li><a href="services.html">Technology</a></li>
+                    <li><a href="engineering.html">Engineering</a></li>
+                    <li><a href="ProductLifeCycleManagement.html">PLM</a></li>
+                    <li><a href="Industry4.html">Digital 4.0</a></li>
+                    <li><a href="consulting-and-staffing.html">Consulting & Staffing</a></li>
+                    <li><a href="Teams.html">Teams</a></li>
                 </ul>
             </div>
     
             <div  data-aos="fade-down" data-aos-duration="1300">
                 <h2><a href="">Quick Links</a></h2>
                 <ul>
-                    <li><a href="">NX CADs</a></li>
-                    <li><a href="">NX  CAM</a></li>
-                    <li><a href="">Solid Edge</a></li>
-                    <li><a href="">Solid Edge</a></li>
-                    <li><a href="">Slimcentre</a></li>
-                    <li><a href="">Diaspora Data Migration</a></li>
-                    <li><a href="">Mendix</a></li>
+                    <li><a href="Expertise.html">Platform development</a></li>
+                    <li><a href="Expertise_HMI_Design.html">HMI design</a></li>
+                    <li><a href="Expertise_Autonomous_driving.html">ADAS Software dev &<br>Validation</a></li>
+                    <li><a href="Expertise_Mobile_application_development.html">Mobile application<br>developement</a></li>
+                    <li><a href="Expertise_Product_developement.html">Prodcut Design</a></li>
+                    <li><a href="Virtual Simulation.html">Virtual simulation</a></li>
                 </ul>
             </div>
     
             <div  data-aos="fade-down" data-aos-duration="1400">
                 <h3>Contact Us</h3>
                 <ul class="contact-location">
-                    <li><img src="img/pin.png" alt=""> <a href="">USA (Detroit, Cincinnati, Dallas)</a></li>
-                    <li><img src="img/pin.png" alt=""> <a href="">Australia / New Zealand</a></li>
-                    <li><img src="img/pin.png" alt=""> <a href="">Canada ( Toronto)</a></li>
-                    <li><img src="img/pin.png" alt=""> <a href="">India (Bangalore, Hubli, Delhi)</a></li>
-                    <li><img src="img/pin.png" alt=""> <a href="">Germany</a></li>
+                    <li><img src="img/pin.png" alt=""> <a href="">USA (Ypsilanti, Michigan)</a></li>
+                    <li><img src="img/pin.png" alt=""> <a href="">India (Bangalore, KA)</a></li>
                 </ul>
                 <ul class="contact-details">
-                    <li><span><i class="fa fa-phone" aria-hidden="true"></i></span> <a href="">888-9-PROLIM</a></li>
-                    <li><span><i class="fa fa-envelope" aria-hidden="true"></i></span> <a href="">info@prolim.com</a></li>
+                    <li><span><i class="fa fa-phone" aria-hidden="true"></i></span> <a href="">+1 (734)544-1598</a></li>
+                    <li><span><i class="fa fa-envelope" aria-hidden="true"></i></span> <a href="">contactus@eshocan.com</a></li>
                 </ul>
             </div>
         </div><!--eshocan_footer_links_block-->
@@ -344,7 +350,11 @@
             </ul>
         </div>
 
-        <p class="eshocan_copy_write">Copyright 2021 all rights reserved</p>
+        <div class="copyright-design-develope">
+            <p class="eshocan_copy_write">Copyright 2021 all rights reserved</p>
+            <p class="eshocan_copy_write">Design and Developed by <a href="http://www.southernlightds.com/">Southern Light Design Studio</a></p>
+        </div>
+        
     </footer>
 
     <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
@@ -359,6 +369,15 @@
         $(function() {
             AOS.init();
         });
+        document.querySelectorAll('.eshocan_hero_media video').forEach(vid => {
+            vid.onclick = () => {
+                document.querySelector('.popup-video').style.display ='block';
+                
+            }
+        });
+        document.querySelector('.popup-video span').onclick = () =>{
+            document.querySelector('.popup-video').style.display ='none';
+        }
     </script>
 </body>
 </html>

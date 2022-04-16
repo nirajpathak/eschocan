@@ -31,7 +31,7 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 0,
         cssEase: 'linear',
-        slidesToShow: 4,
+        slidesToShow: 11,
         slidesToScroll: 1,
         centerPadding:'80px',
         infinite: true,

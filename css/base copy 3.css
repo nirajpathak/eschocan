@@ -145,7 +145,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 
 .industries-info{padding: 70px;}
 .allPages .eshocan_hero_section.indsutriesBanner{background-image: url(../img/industries/Rectangle.png);}
-.industries-partenr-client img{filter: grayscale(100%);}
+.industries-partenr-client img{filter: grayscale(0%);}
 .industries-info-block{display: flex;justify-content: space-between;}
 .industries-info-head{font-size: 40px;line-height: 50px;margin-bottom: 0px;}
 .industries-info-copy{margin-bottom: 20px;margin-top: 20px;}
@@ -177,7 +177,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .project-discuss-block{width: 50%;}
 .project-discuss h2{font-size: 48px;color:#fff;}
 .project-discuss-block .project-disccuss-form{display: flex;justify-content: space-between;}
-.discuss-form{background: url(../img/discuss-form-bg.png) top no-repeat; background-size: 100% 100%;padding: 60px;}
+.discuss-form{background: url(../img/discuss-form-bg.png) top no-repeat; background-size: 100% 100%;padding: 60px;padding-bottom: 20px;}
 .form-block-group{width: 50%;margin-bottom: 10px;}
 .form-group{margin-bottom: 15px;}
 .form-group label{display: block;color: #0E4C92; margin-bottom: 5px;font-weight: bold;}
@@ -198,6 +198,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .img-on{display: none; backface-visibility: hidden; }
 .img-off{display: block;}
 .automative-img-block .img-content .hero-btn {background-color: #fff;display: none;}
+.view-more-card{background-color: antiquewhite; color: black;}
 .automative-img-block:hover .img-off, .automative-img-block:hover  .img-content img{display: none;}
 .automative-img-block:hover .img-on{display: block; transform: rotateY(0deg);  transition: transform 0.3s ease-out;transform-style: preserve-3d;}
 .automative-img-block:hover .img-content .img-content-copy {display: block;}
@@ -219,7 +220,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .in-vehicale-bullet-listing{list-style-type: disc;padding:0px 30px;}
 .in-vehicale-bullet-listing li{color:#000;font-size: 14px;font-weight: 300;line-height: 22px;margin-bottom: 20px;}
 .platform-development:hover{background: url(../img/invehicleinfo/platform-development.png) no-repeat;background-size: cover;transition: all 0.4s ease-in;}
-.application-development:hover{background: url(../img/invehicleinfo/application-development.png) no-repeat;background-size: cover;transition: all 0.4s ease-in;}
+.application-development:hover{background: url(../img/invehicleinfo/application-development.png) no-repeat;background-size:cover;transition: all 0.4s ease-in;width: fit-content;}
 .smart-device:hover{background: url(../img/invehicleinfo/smart-device.png) no-repeat;background-size: cover;transition: all 0.4s ease-in;}
 .hmi-development:hover{background: url(../img/invehicleinfo/hmi-development.png) no-repeat;background-size: cover;transition: all 0.4s ease-in;}
 .testing-compliance:hover{background: url(../img/invehicleinfo/testing-complaince.png) no-repeat;background-size: cover;transition: all 0.4s ease-in;}
@@ -346,6 +347,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 
 /*company*/
 .company_middle_card{text-align: center;padding: 200px;background: url(../img/Company/main.png) top no-repeat; background-size: 101% 101%; margin-bottom: 50px;margin-top: 20px;}
+.hmi_img{padding: 300px; background: url(../img/hmi/main.png) top no-repeat; background-size: 101% 101%; margin-bottom: 50px;margin-top: 20px;}
 .company_middle_card h2{font-family: 'Open Sans';  font-style: normal;  font-weight: 600;  font-size: 39px;  line-height: 53px;  letter-spacing: 0.06em;  text-transform: capitalize; color: #FFF;  }
 .company_middle_card p{font-family: 'Open Sans';  font-style: normal;  font-weight: 400;  font-size: 20px;  line-height: 27px;  text-align: justify;    color: #FFF;}
 .industries-info-content-copy-company{padding:0px 10px;margin-left: 50px;font-weight: 400; margin-top: 20px;    font-size: 20px;    line-height: 27px;    text-align: justify;    color: #6F6F6F;}
@@ -373,8 +375,10 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .industries-info-block-intership{display: flex;justify-content:space-around;text-align: center;margin-top: 35px;align-items: center;}
 .video-internship{transform: rotate(-20Deg);margin-top: 100px;}
 .industries-info-content-block-internship{transition: .3s;margin: 20px;text-align: center;box-shadow: 1px 1px 7px rgba(168, 168, 168, 0.25);padding: 50px;border-radius: 19px;height: 220px;width: 250px;}
+.newcard{transition: .3s;margin: 20px;text-align: center;box-shadow: 1px 1px 7px rgba(168, 168, 168, 0.25);padding: 50px;border-radius: 19px;height: 320px;width: 340px;}
+.newcard:hover{box-shadow: 0px 20px 40px rgb(0 0 0 / 40%);transform: scale(1.05,1.05);background: linear-gradient(to bottom, #fff 95%, #1DA1F2 5%);height: 320px;width: 340px;}
 .industries-info-content-block-internship:hover{   box-shadow: 0px 20px 40px rgb(0 0 0 / 40%);transform: scale(1.05,1.05);background: linear-gradient(to bottom, #fff 95%, #1DA1F2 5%);height: 220px;width: 250px;}
-.internship-info-content-head-auto{font-weight: bold;font-size: 25px;padding:0px 10px;color: #000;padding-left: 10px; padding-bottom: 10px;padding-top: 10px;}
+.internship-info-content-head-auto{font-weight: bold;font-size: 25px;padding:0px 10px;color: #000;padding-left: 10px; padding-bottom: 10px;padding-top: 10px; line-height: 120%;}
 .card-title {
   display: block;
   text-align: center;
@@ -588,7 +592,8 @@ color: #000000;
     .eshocan_social_media ul{display: flex;justify-content:flex-start;align-items: flex-start;}
     .eshocan_social_media ul li {margin-right: 20px;}
     .eshocan_social_media ul li a i{font-size: 30px; color:#000}
-    .eshocan_copy_write{font-family:Open Sans;margin-right:10%;text-align: center;font-weight: bold;font-size: 12px;line-height: 14px;text-transform: capitalize;color:#000;}
+    .eshocan_copy_write{font-family:Open Sans;margin-right:10%;text-align: center;font-weight: bold;font-size: 12px;line-height: 14px;text-transform: capitalize;color:grey;}
+
     .eshocan_footer_copy{padding:0px 0px;}
     .eshocan_footer_links_block h2{text-align: left;margin-bottom: 10px;}
     .contact-details{margin-top:25px}
@@ -803,6 +808,18 @@ font-size: 16px;
   background-image: url(../img/Expertise/ADAS_m.png);
 }
 
+.e_astc{
+  background-image: url(../img/Expertise/4.png);
+}
+
+.e_fs{
+  background-image: url(../img/Expertise/5.png);
+}
+
+.e_ae{
+  background-image: url(../img/Expertise/6.png);
+}
+
 .e_hmi {
   background-image: url(../img/Expertise/HMI_m.png);
 }
@@ -896,6 +913,40 @@ margin-left: 2px;
 .card-listing li{color:#000;font-size: 14px;font-weight: 300;line-height: 22px;margin-bottom: 10px;padding-left: 10%;padding-right: 10%;}
 .card-listing{padding: 0px 60px;padding-left: 10%}
 .card-copy{color:#000;margin-bottom: 20px;margin-left: 20px; padding-left: 10%; padding-right: 20%;}
+
+
+/* pop up video*/
+
+.popup-video{
+  position: fixed;
+  top:0; left: 0;
+  z-index: 10000000;
+  background: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  display: none;
+  
+}
+
+.popup-video video{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  width: 750px;
+  border-radius: 5px;
+  border: 3px solid #fff;
+  object-fit: cover;
+  
+}
+.popup-video span{
+  position: absolute;
+  top: 5px; right: 20px;
+  font-size: 50px;
+  color: #fff;
+  font-weight: normal;
+  z-index: 100000;
+  cursor: pointer;
+}
 
 
 /*Responsive CSS*/
@@ -1068,5 +1119,7 @@ margin-left: 2px;
     .automative-expertise-block-parent{display: block;padding: auto;}
     .casestudy_pages{padding:0px 15px;width: 100%;}
     .casestudy_pages img{width: 100%; padding: 0px;}
+    .hmi_img{background: url(../img/hmi/mainmedia.png) top no-repeat;;padding: 300px; background-size: 101% 101%; margin-bottom: 50px;margin-top: 20px;}
+    .popup-video video{width: 80%; top: 20%;}
 }
 /*Responsive CSS end*/
