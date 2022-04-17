@@ -290,8 +290,11 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .industries-focus-content{position: absolute; top:100px;width: 100%;left:50px;}
 .industries-focus-content h3{color: #fff;font-size:55px;}
 .divide-line{width: 200px;height: 2px;background-color: #fff;border-radius: 3px;margin: 20px 0px;}
-.view-more{color:#fff;font-size: 16px;visibility: hidden;}
+.view-more{ color:#000;font-size: 16px;visibility: hidden; background-color: #fff;
+  font-size: 14px;line-height: 22px;box-shadow:0 0 5px rgb(136 136 136 / 69%);display:inline-flex;border-radius: 100px;justify-content: space-between;padding: 10px;align-items: center; margin-top: -15px;
+}
 .industries-we-focus-block:hover .industries-we-focus-front .view-more{visibility: visible;}
+.view-more:hover{transform: scale(1.05,1.05); font-weight: bold;color: #1DA1F2;}
 /*engineering end*/
 
 /*Career */
