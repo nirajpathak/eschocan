@@ -223,11 +223,11 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .in-vehicale-listing{padding: 0px 60px;}
 .in-vehicale-bullet-listing{list-style-type: disc;padding:0px 30px;}
 .in-vehicale-bullet-listing li{color:#000;font-size: 14px;font-weight: 300;line-height: 22px;margin-bottom: 20px;}
-.platform-development:hover{background: rgb(0, 0, 0, 0.7) url(../img/invehicleinfo/platform-development.png) no-repeat;background-size: cover;transition: all 0.1s ease-in;background-blend-mode: darken;}
-.application-development:hover{background: rgb(0, 0, 0, 0.7) url(../img/invehicleinfo/application-development.png) no-repeat;background-size:cover;transition: all 0.1s ease-in;background-blend-mode: darken;}
-.smart-device:hover{background: rgb(0, 0, 0, 0.7) url(../img/invehicleinfo/smart-device.png) no-repeat;background-size: cover;transition: all 0.1s ease-in;background-blend-mode: darken;}
-.hmi-development:hover{background: rgb(0, 0, 0, 0.7) url(../img/invehicleinfo/hmi-development.png) no-repeat;background-size: cover;transition: all 0.1s ease-in;background-blend-mode: darken;}
-.testing-compliance:hover{background: rgb(0, 0, 0, 0.85) url(../img/invehicleinfo/testing-complaince.png) no-repeat;background-size: cover;transition: all 0.1s ease-in;background-blend-mode: darken;}
+.platform-development:hover{background: rgb(0, 0, 0, 0.85) url(../img/invehicleinfo/platform-development.png) no-repeat;background-size: cover;transition: all 0.1s ease-in;background-blend-mode: darken;transform: scale(1.05,1.05);}
+.application-development:hover{background: rgb(0, 0, 0, 0.85) url(../img/invehicleinfo/application-development.png) no-repeat;background-size:cover;transition: all 0.1s ease-in;background-blend-mode: darken;transform: scale(1.05,1.05);}
+.smart-device:hover{background: rgb(0, 0, 0, 0.85) url(../img/invehicleinfo/smart-device.png) no-repeat;background-size: cover;transition: all 0.1s ease-in;background-blend-mode: darken;transform: scale(1.05,1.05);}
+.hmi-development:hover{background: rgb(0, 0, 0, 0.85) url(../img/invehicleinfo/hmi-development.png) no-repeat;background-size: cover;transition: all 0.1s ease-in;background-blend-mode: darken;transform: scale(1.05,1.05);}
+.testing-compliance:hover{background: rgb(0, 0, 0, 0.85) url(../img/invehicleinfo/testing-complaince.png) no-repeat;background-size: cover;transition: all 0.1s ease-in;background-blend-mode: darken;transform: scale(1.05,1.05);}
 
 .in-vehicale-block:hover .in-vehicale-block-img{display: none}
 .in-vehicale-block:hover .in-vehicale-block-img-white{display: block}
