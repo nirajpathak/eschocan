@@ -589,9 +589,12 @@ color: #000000;
     footer{background: #F4FAFF;padding:40px 0px 10px;}
     footer .eshocan_brand_logo{width: 299px;height: 81px;}
     .eshocan_footer_links_block{padding:0px 40px;margin-bottom: 20px;}
-    .eshocan_footer_links_block{padding:0px 15px;}
-    .eshocan_footer_links_block{display: flex;justify-content: space-between;align-items: flex-start; text-align: center;}
+    /*.eshocan_footer_links_block{padding:0px 15px;}*/
+    .eshocan_footer_links_block{display: flex;justify-content: space-between;align-items: flex-start; text-align: left;}
     .eshocan_footer_links_block div{width:33.33%;padding:0px 20px}
+    .eshocan_footer_links_block div:nth-child(2){width:33.33%;padding-left: 100px;}
+    .eshocan_footer_links_block div:nth-child(3){width:33.33%;padding-left: 10px;}
+    .eshocan_footer_links_block div:last-child{width:33.33%;padding:0px 10px}
     .eshocan_footer_links_block ul li{margin-bottom: 10px;}
     .eshocan_footer_links_block ul li a{font-family:Open Sans;color:#4682B4;font-weight:400;font-size: 17px;font-style: normal;}
     .eshocan_footer_links_block h2 a{font-family:Open Sans;font-weight: 900;font-size: 20px;line-height: 23px;color: #2F4B5E;margin-bottom: 15px;display: block;}
@@ -604,7 +607,8 @@ color: #000000;
     .eshocan_copy_write{font-family:Open Sans;margin-right:10%;text-align: center;font-weight: bold;font-size: 12px;line-height: 14px;text-transform: capitalize;color:grey;}
 
     .eshocan_footer_copy{padding:0px 0px;}
-    .eshocan_footer_links_block h2{text-align: center;margin-bottom: 10px;}
+    .eshocan_footer_links_block h2{text-align: left;margin-bottom: 10px;}
+    
     .contact-details{margin-top:25px}
     .contact-details i{color:#3F7EB3; margin-right: 10px;}
     .contact-location{margin-top:25px}
@@ -1120,6 +1124,9 @@ margin-left: 2px;
     .people-culture{margin: 60px 0px 40px;}
     .eshocan_header{padding: 10px 0px 10px 10px;align-items: center;display: flex;justify-content: space-between;background-color:#fff;}
     .people-culture-block, .eshocan_footer_links_block{display: block;}
+    .eshocan_footer_links_block div:nth-child(2){width:100%;padding-left: 0px;}
+    .eshocan_footer_links_block div:nth-child(3){width:100%;padding-left: 0px;}
+    .eshocan_footer_links_block div:last-child{width:100%;padding-left: 0px;}
     .eshocan_footer_links_block div{width: 100%;padding:0px 0px;}
     .people-culture-img-block img{max-width: 100%;}
     .partners-testimonal-block, .partners-testimonal.testimonial .partners-testimonal-block{background-size: cover;}
