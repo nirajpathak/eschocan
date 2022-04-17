@@ -451,7 +451,9 @@
         document.querySelectorAll('.eshocan_hero_media video').forEach(vid => {
             vid.onclick = () => {
                 document.querySelector('.popup-video').style.display ='block';
-                
+                document.getElementById("myvideo").muted=false;
+                document.getElementById("myvideo").play()
+                document.getElementById("myvideo").currentTime=0
             }
         });
         document.querySelector('.popup-video span').onclick = () =>{

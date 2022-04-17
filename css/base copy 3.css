@@ -355,7 +355,8 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 /*Services end*/
 
 /*company*/
-.company_middle_card{text-align: center;padding: 200px;background: url(../img/Company/main.png) top no-repeat; background-size: 101% 101%; margin-bottom: 50px;margin-top: 20px;}
+/*.company_middle_card{text-align: center;padding: 200px;background: url(../img/Company/main.png) top no-repeat; background-size: 101% 101%; margin-bottom: 50px;margin-top: 20px;}*/
+.company_middle_card{text-align: center;padding: 200px; margin-bottom: 50px;margin-top: 20px;background-color: #1DA1F2; clip-path: polygon(0 0, 25% 10%, 100% 0, 100% 90%, 25% 100%, 0 90%); background: rgb(0, 0, 0, 0.6) url(../img/Company/main2.jpeg) top no-repeat; background-blend-mode: darken;}
 .hmi_img{padding: 300px; background: url(../img/hmi/main.png) top no-repeat; background-size: 101% 101%; margin-bottom: 50px;margin-top: 20px;}
 .company_middle_card h2{font-family: 'Open Sans';  font-style: normal;  font-weight: 600;  font-size: 39px;  line-height: 53px;  letter-spacing: 0.06em;  text-transform: capitalize; color: #FFF;  }
 .company_middle_card p{font-family: 'Open Sans';  font-style: normal;  font-weight: 400;  font-size: 20px;  line-height: 27px;  text-align: justify;    color: #FFF;}
@@ -652,8 +653,9 @@ color: #000000;
 .mobile_app_dev_process{align-items: right;margin-top: 50px;margin-bottom: 50px;margin-left: 0px;}
 .industries-info-content-mobile-app-dev{margin-left:50px;}
 .expert-in-mobile .expert-in-mobile-img{display: block;width: 100%;}
-.img-reponsive{display: block;width: 70%;padding-left: 10%;}
+
 /*product development*/
+.img-reponsive{display: block;width: 100%;}
 .automative-expertise-block-parent-pd{display: flex;justify-content:space-around;}
 
 /*Virtual Simulation*/
@@ -1218,7 +1220,7 @@ margin-left: 2px;
     .who-we-are-company-parent{display: block; padding: 10px;}
     .who-we-are-company-parent h1{font-size: 27px;line-height: 32px;}
     .who-we-are-company-parent p{font-size: 17px;line-height: 26px;}
-    .industries-info-block-intership{display: block;}
+    .industries-info-block-intership{display: block; padding: 10px;}
     .row{display: block;}
     .card-section{display: block;}
     .teams_img{display: none;}
@@ -1231,6 +1233,9 @@ margin-left: 2px;
     .popup-video video{width: 80%; top: 20%;}
     .loc_sec{display: block;}
     .earth{display: none;}
+    .company_middle_card{clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);padding: 5% 5%; margin-bottom: auto;margin-top: auto;}
+    .company_middle_card h2{font-family: 'Open Sans';  font-style: normal;  font-weight: bold;  font-size: 20px;  line-height: 20px;  letter-spacing: 0.60em;   text-transform: capitalize; color: #FFF;  }
+    .company_middle_card p{font-family: 'Open Sans';  font-style: normal;  font-weight: normal;  font-size: 15px;  line-height: 20px;  text-align: justify;    color: #FFF;}
     
 }
 /*Responsive CSS end*/

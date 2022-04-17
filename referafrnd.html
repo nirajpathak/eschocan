@@ -132,12 +132,11 @@
                         Your browser does not support the video tag.
                     </video>
             </div>
-            
         </div>
     </section><!--eshocan_hero_section-->
     <div class="popup-video">
         <span>&times;</span>
-        <video src="img/career/hero.mp4" autoplay muted controls id="myvideo"></video>
+        <video src="img/career/hero.mp4" muted controls id="myvideo"></video>
     </div>
 
     <section class="referafrnd-info" data-aos="fade-down" data-aos-duration="1000">
@@ -372,6 +371,9 @@
         document.querySelectorAll('.eshocan_hero_media video').forEach(vid => {
             vid.onclick = () => {
                 document.querySelector('.popup-video').style.display ='block';
+                document.getElementById("myvideo").muted=false;
+                document.getElementById("myvideo").play()
+                document.getElementById("myvideo").currentTime=0
                 
             }
         });
