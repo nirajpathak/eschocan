@@ -25,31 +25,31 @@
                         <div class="close"><i class="fa fa-times" aria-hidden="true"></i></div>
                         <ul>
                             <li>
-                                <a href="Services.html">Services</a> 
+                                <a href="Services.php">Services</a> 
                                 <div class="eshocan_nav_lvl-1">
                                     <ul>
                                         <li>
-                                            <a href="services.html">Technology</a>
+                                            <a href="services.php">Technology</a>
                                             <ul class="eshocan_nav_lvl-2">
-                                                <li> <a href="in-vehicle-infotainment.html">In-Vehicle Infotainment</a></li>
-                                                <li> <a href="Expertise_HMI_Design.html">HMI Design</a></li>
-                                                <li> <a href="Connectedmobility.html">Connected mobility</a></li>
-                                                <li> <a href="AutomotiveEmbedded.html">Automotive Embedded</a></li>
+                                                <li> <a href="in-vehicle-infotainment.php">In-Vehicle Infotainment</a></li>
+                                                <li> <a href="Expertise_HMI_Design.php">HMI Design</a></li>
+                                                <li> <a href="Connectedmobility.php">Connected mobility</a></li>
+                                                <li> <a href="AutomotiveEmbedded.php">Automotive Embedded</a></li>
                                             </ul>
                                         
                                         </li>
                                         <li>
                                             <a href="engineering.html">Engineering</a>
                                             <ul class="eshocan_nav_lvl-2">
-                                                <li> <a href="ProductDevelopment.html">Product Design </a></li>
-                                                <li> <a href="Simulation.html">Simulation</a></li>
-                                                <li> <a href="RnD.html">R&D</a></li>
+                                                <li> <a href="ProductDevelopment.php">Product Design </a></li>
+                                                <li> <a href="Simulation.php">Simulation</a></li>
+                                                <li> <a href="RnD.php">R&D</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="ProductLifeCycleManagement.html">PLM</a></li>
-                                        <li><a href="Industry4.html">Digital 4.0 </a></li>
-                                        <li><a href="consulting-and-staffing.html">Consulting & Staffing</a></li>
-                                        <li><a href="Teams.html">Teams</a></li>
+                                        <li><a href="ProductLifeCycleManagement.php">PLM</a></li>
+                                        <li><a href="Industry4.php">Digital 4.0 </a></li>
+                                        <li><a href="consulting-and-staffing.php">Consulting & Staffing</a></li>
+                                        <li><a href="Teams.php">Teams</a></li>
                                     </ul>
                                 </div>
                                 <span class="plusminus">+</span>
@@ -58,12 +58,12 @@
                                 <a href="Expertise.html">Expertise</a> 
                                 <div class="eshocan_nav_lvl-1">
                                     <ul>
-                                        <li><a href="Expertise.html">Platform development </a> </li>
-                                        <li><a href="Expertise_HMI_Design.html">HMI Design</a></li>
-                                        <li><a href="Expertise_Autonomous_driving.html">ADAS software development & Validation</a></li>
-                                        <li><a href="Expertise_Mobile_application_development.html">Mobile Application development</a></li>
-                                        <li><a href="Expertise_Product_developement.html">Product Design</a></li>
-                                        <li><a href="Virtual Simulation.html">Virtual simulation</a></li>
+                                        <li><a href="Expertise.php">Platform development </a> </li>
+                                        <li><a href="Expertise_HMI_Design.php">HMI Design</a></li>
+                                        <li><a href="Expertise_Autonomous_driving.php">ADAS software development & Validation</a></li>
+                                        <li><a href="Expertise_Mobile_application_development.php">Mobile Application development</a></li>
+                                        <li><a href="Expertise_Product_developement.php">Product Design</a></li>
+                                        <li><a href="Virtual Simulation.php">Virtual simulation</a></li>
                                     </ul>
                                 </div>
                                 <span class="plusminus">+</span>
@@ -72,23 +72,23 @@
                                 <a href="Automotive.html">Industries</a>
                                 <div class="eshocan_nav_lvl-1">
                                     <ul>
-                                        <li><a href="Automotive.html">Automotive</a> </li>
-                                        <li><a href="ElectricMobility.html">Electric Mobility</a></li>
-                                        <li><a href="Transportion.html">Transportation (Rail)</a></li>
-                                        <li><a href="Aerospace.html">Aerospace & Defense</a></li>
-                                        <li><a href="Heavy Machinery.html">Industrial Machineries </a></li>
-                                        <li><a href="Off Road.html">Off Road </a></li>
-                                        <li><a href="Healthcare.html">Healthcare</a></li>
+                                        <li><a href="Automotive.php">Automotive</a> </li>
+                                        <li><a href="ElectricMobility.php">Electric Mobility</a></li>
+                                        <li><a href="Transportion.php">Transportation (Rail)</a></li>
+                                        <li><a href="Aerospace.php">Aerospace & Defense</a></li>
+                                        <li><a href="Heavy Machinery.php">Industrial Machineries </a></li>
+                                        <li><a href="Off Road.php">Off Road </a></li>
+                                        <li><a href="Healthcare.php">Healthcare</a></li>
                                     </ul>
                                 </div>
                                 <span class="plusminus">+</span>
                             </li>
                             <li>
-                                <a href="casestudy.html">Insights</a>
+                                <a href="casestudy.php">Insights</a>
                                 <div class="eshocan_nav_lvl-1">
                                     <ul>
-                                        <li><a href="casestudy.html">Case studies</a> </li>
-                                        <li><a href="blog.html">Blog</a></li>                                        
+                                        <li><a href="casestudy.php">Case studies</a> </li>
+                                        <li><a href="blog.php">Blog</a></li>                                        
                                     </ul>
                                 </div>
                                 <span class="plusminus">+</span>
@@ -97,15 +97,15 @@
                                 <a href="Career.html">Career</a>
                                 <div class="eshocan_nav_lvl-1">
                                     <ul>
-                                        <li><a href="career.html">Current Jobs</a> </li>
-                                        <li><a href="referafrnd.html">Refer a friend</a></li>
-                                        <li><a href="Internship.html">Internship</a></li>
+                                        <li><a href="career.php">Current Jobs</a> </li>
+                                        <li><a href="referafrnd.php">Refer a friend</a></li>
+                                        <li><a href="Internship.php">Internship</a></li>
                                     </ul>
                                 </div>
                                 <span class="plusminus">+</span>
                             </li> 
                             <li>
-                                <a href="Company.html">Company</a> 
+                                <a href="Company.php">Company</a> 
                                 <span class="plusminus">+</span>
                             </li>
                         </ul> 
