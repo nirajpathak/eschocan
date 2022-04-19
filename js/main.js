@@ -27,11 +27,11 @@ $('.side-img').hover(
 
 $(document).ready(function(){
     $('.partner-slider').slick({
-        speed: 5000,
+        speed: 800,
         autoplay: true,
         autoplaySpeed: 0,
         cssEase: 'linear',
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 1,
         centerPadding:'80px',
         infinite: true,
@@ -127,3 +127,16 @@ $( ".eshocan_nav_links ul li" ).click(function(e) {
     */
 });
 
+$ (document.querySelectorAll('.eshocan_hero_media video').forEach(vid => {
+    vid.onclick = () => {
+        document.querySelector('.popup-video').style.display ='block';
+        document.getElementById("myvideo").muted=false;
+        document.getElementById("myvideo").play()
+        document.getElementById("myvideo").currentTime=0
+        
+    }
+}));
+$(document.querySelector('.popup-video span').onclick = () =>{
+    document.querySelector('.popup-video').style.display ='none';
+    document.getElementById("myvideo").muted=true;
+});
