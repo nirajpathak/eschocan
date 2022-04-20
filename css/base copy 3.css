@@ -34,8 +34,8 @@ html {scroll-behavior: smooth;}
     .eshocan_nav_links ul li > a{ font-family: Open Sans; color:#000; text-decoration:none; font-weight:500; font-size: 20px; line-height: 30px; transition:  0.2s ; -webkit-transition:  0.2s ; -moz-transition:  0.2s ; -ms-transition:  0.2s ; -o-transition:  0.2s ; }
     .eshocan_nav_links ul li:hover:after{width:100%}
     .eshocan_brand_logo{width:180px;height:35px;border-radius: 0px;transition: ease-in 0.3s all;-webkit-transition: ease-in 0.3s all;-moz-transition: ease-in 0.3s all;}
-    .eshocan_brand_logo_logofoot{width:40%;height:40%}
-    .eshocan_nav_lvl-1{ opacity:0;background-color: rgba(248, 244, 244, 0.849); border-radius: 10px; position: absolute; padding: 20px 30px; min-width:250px; visibility: hidden; -webkit-transform: translateY(20px); transform: translateY(20px); -moz-transform: translateY(20px); -ms-transform: translateY(20px); -o-transform: translateY(20px); transition: all .3s linear; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; }
+    .eshocan_brand_logo_logofoot{width:20%;height:20%}
+    .eshocan_nav_lvl-1{ opacity:0;background-color: rgba(248, 244, 244, 1); border-radius: 10px; position: absolute; padding: 20px 30px; min-width:250px; visibility: hidden; -webkit-transform: translateY(20px); transform: translateY(20px); -moz-transform: translateY(20px); -ms-transform: translateY(20px); -o-transform: translateY(20px); transition: all .3s linear; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; }
     .eshocan_nav_lvl-2{background-color: transparent;margin-top: 11px;padding-left: 20px;}
     .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li{text-align: left;padding: 8px 0px;display: block;}
     .eshocan_nav_links ul li > .eshocan_nav_lvl-1 ul li a{ position: relative; font-size: 18px; line-height: 22px; transition:all 0.3s; -webkit-transition:all 0.3s; -moz-transition:all 0.3s; -ms-transition:all 0.3s; -o-transition:all 0.3s; font-weight: 100; }
@@ -49,7 +49,7 @@ html {scroll-behavior: smooth;}
     .eshocan_header.darkHeader nav{padding:0px 70px}
     .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li .eshocan_nav_lvl-2 li::after{content: none;}
     .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li .eshocan_nav_lvl-2 li a{position: relative;}
-    .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li .eshocan_nav_lvl-2 li a::before{ content: ''; display: inline-block;    position: absolute;left: -9px;top: 9px; width:5px; height:5px; background-color:#fff; border-radius:100px ; -webkit-border-radius:100px ; -moz-border-radius:100px ; -ms-border-radius:100px ; -o-border-radius:100px ; }
+    .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li .eshocan_nav_lvl-2 li a::before{ content: ''; display: inline-block;    position: absolute;left: -9px;top: 9px; width:5px; height:5px; background-color:#000; border-radius:100px ; -webkit-border-radius:100px ; -moz-border-radius:100px ; -ms-border-radius:100px ; -o-border-radius:100px ; }
     .eshocan_nav_links ul li .fa-plus{display: none;}
     /*Header end*/
 
