@@ -34,7 +34,7 @@ html {scroll-behavior: smooth;}
     .eshocan_nav_links ul li > a{ font-family: Open Sans; color:#000; text-decoration:none; font-weight:500; font-size: 20px; line-height: 30px; transition:  0.2s ; -webkit-transition:  0.2s ; -moz-transition:  0.2s ; -ms-transition:  0.2s ; -o-transition:  0.2s ; }
     .eshocan_nav_links ul li:hover:after{width:100%}
     .eshocan_brand_logo{width:180px;height:35px;border-radius: 0px;transition: ease-in 0.3s all;-webkit-transition: ease-in 0.3s all;-moz-transition: ease-in 0.3s all;}
-    .eshocan_brand_logo_logofoot{width:20%;height:20%}
+    .eshocan_brand_logo_logofoot{width:20%;height:20%;margin-left: 40%;}
     .eshocan_nav_lvl-1{ opacity:0;background-color: rgba(248, 244, 244, 1); border-radius: 10px; position: absolute; padding: 20px 30px; min-width:250px; visibility: hidden; -webkit-transform: translateY(20px); transform: translateY(20px); -moz-transform: translateY(20px); -ms-transform: translateY(20px); -o-transform: translateY(20px); transition: all .3s linear; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; }
     .eshocan_nav_lvl-2{background-color: transparent;margin-top: 11px;padding-left: 20px;}
     .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li{text-align: left;padding: 8px 0px;display: block;}
@@ -585,6 +585,54 @@ color: #000000;
 
 .inlinecasestudy{justify-content: space-around;}
 
+/*HMI*/
+.HMI_process{
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 10%;
+  background-color: #F6f6f6;
+}
+.parent_process{
+  width: 33%;
+  height: 100%;
+}
+.parent_process h5{
+  margin-bottom:10px;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 37px;
+letter-spacing: 0.08em;
+color: #000000;
+}
+.bar{
+  height: 10px;
+  width: 300%;
+  background-color: #A7DDFF;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.bar2{
+  height: 10px;
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+.bar3{
+  height: 10px;
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+.arrow{
+  margin-left: 2px;
+}
+.dot{
+  margin-top: 10px;
+  height: 15px;
+  width: 15px;
+}
 
 /*Footer*/
     footer{background: #F4FAFF;padding:40px 0px 10px;}
