@@ -388,7 +388,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .industries-info-block-intership{display: flex;justify-content:space-around;text-align: center;margin-top: 35px;align-items: center;}
 .video-internship{transform: rotate(-20Deg);margin-top: 100px;}
 .industries-info-content-block-internship{transition: .3s;margin: 20px;text-align: center;box-shadow: 1px 1px 7px rgba(168, 168, 168, 0.25);padding: 50px;border-radius: 19px;height: 220px;width: 250px;}
-.newcard{transition: .3s;margin: 20px;text-align: center;box-shadow: 1px 1px 7px rgba(168, 168, 168, 0.25);padding: 50px;border-radius: 19px;height: 320px;width: 340px;}
+.newcard{transition: .3s;margin: 20px;text-align: center;box-shadow: 1px 1px 7px rgba(168, 168, 168, 0.25);padding: 50px 30px;border-radius: 19px;height: 320px;width: 340px;}
 .newcard:hover{box-shadow: 0px 20px 40px rgb(0 0 0 / 40%);transform: scale(1.05,1.05);background: linear-gradient(to bottom, #fff 95%, #1DA1F2 5%);height: 320px;width: 340px;}
 .industries-info-content-block-internship:hover{   box-shadow: 0px 20px 40px rgb(0 0 0 / 40%);transform: scale(1.05,1.05);background: linear-gradient(to bottom, #fff 95%, #1DA1F2 5%);height: 220px;width: 250px;}
 .internship-info-content-head-auto{font-weight: bold;font-size: 25px;padding:0px 10px;color: #000;padding-left: 10px; padding-bottom: 10px;padding-top: 10px; line-height: 120%;}
