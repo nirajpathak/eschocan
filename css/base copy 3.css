@@ -462,6 +462,7 @@ color: #0E4C92;
 .form-group-refer label{display: block;color: #0E4C92; margin-bottom: 5px;font-weight: bold;}
 .form-group-refer input{width:90%;height:30px;padding:5px;border: 0px;background-color: #eee;font-size: 14px;}
 .form-group-refer textarea{border: 0px;background-color: #eee;padding: 5px;font-size: 16px;}
+.form-group-refer textarea{width: 100%;}
 .form-block-group-accept-refer .form-group-refer{display: flex;}
 .form-block-group-accept-refer .form-group-refer input{width:35px;height:35px;}
 .form-block-group-accept-refer .form-group-refer p{padding:0px 10px;font-size: 13px;}
@@ -1148,16 +1149,61 @@ margin-left: 2px;
     .our-consulting-block {margin-bottom: 25px;}
     .our-consulting-block:hover .block-img-consulting {transform: scale(5.9);}
     .eshocan_hero_section{background-image: none;}
+    .eshocan_header.darkHeader nav{padding:0px 0px;}
+    .allPages .eshocan_hero_media .video{height: 100vh;}
+    .allPages  .eshocan_hero_section{min-height: 60vh;}
+    .casestudy h1{font-size: 40px;text-align: center;}
+    .casestudy-col{margin-bottom: 20px !important;}
+    .inpagecasestudy-readall{text-align: center;}
+    .project-discuss h2 {font-size: 34px;}
+    .form-block-group-accept .form-group-submit{justify-content: center;}
+    .in-vehicale-block h2{font-size: 30px;line-height: 35px;margin-top:20px}
+    .industries-info-content-copy-hmi{margin-left: 0px;}
+    .industries-info-content-block-internship{width: auto;padding: 5px;margin: 10px 5px;}
+    .industries-info-block-vs img{width: 100%;display: block;}
+    .casestudy{padding-top:20px}
+    .industries-info-content-block-auto{margin-left:0px ;}
+    .industries-info-content-head-auto {font-size: 20px;line-height: 25px;}
+    .newcard{width: auto; padding: 20px 10px;margin: 20px 0px;height: auto;}
+    .engineering-parent{margin: 40px 0px;}
+    .industries-we-focus-block img{width: 100%;}
+    .industries-info-content-block-pd{margin-left: 0px;}
+    .industries-info-content-copy-mobile-app-develop{margin-left: 0px;}
+    .industries-info-content-mobile-app-dev{margin-left: 0px;}
+    .newcard:hover{width: auto;height: auto;}
+    .aero-info-point{left: 0px;margin-left: 0px!important;margin-right: 0px;}
+    .healthcare-info-block{display: block;}
+    .healthcare-info-block img{width: 100%;}
+    .casestudy_pages h1{font-size: 25px;line-height: 34px;margin:20px 0px}
+    .engineering-parent-block-head {font-size: 22px;line-height: 30px;}
+    .industries-info-copy{margin-top: 0px;}
+    .referafrnd-info{display: block;padding: 0px 0px;}
+    .referafrnd-info-child img{width: 100%;}
+    .refer-discuss{padding: 0px;}
+    .refer-discuss-block .refer-disccuss-form{display: block;}
+    .refer-discuss-block{width: 100%;padding: 60px 15px;}
+    .form-block-group-refer{width: 100%;padding: 15px;}
+    .application_form{margin-top:20px}
+    .application_form h3{font-size: 26px!important;}
+    .industries-info-content-copy-company{margin-left: 0px;}
+    .company-info-content-head-auto-main{margin-left: 0px;}
+    .company-info-content-head-auto-main{line-height: 30px;}
+    .company-industry{padding: 0px 15px!important;}
     /*Vishal Responsive end*/
 
     .intership-application-form{display: block;}
     .application_form{width: 100%;margin-left: 0%;}
     .copyright-design-develope{display: block;}
     .flip-card{width: 100%;padding: 0px;}
-    .industries-info-head{margin-bottom: 20px;}
+    .industries-info-head{margin-bottom: 20px;font-size: 33px;}
     .in-vehicale-section .in-vehicale-block{width: 100%;padding: 30px 20px;}
-    .in-vehicale-listing {padding: 0px 20px;}  
+    .in-vehicale-listing, .in-vehicale-copy {padding: 0px 0px;}  
     .industries-info, .why-eshocan, .project-discuss, .automative-expertise {padding: 50px 20px;}
+    .company_partner{margin: 0px 0px;padding: 10px;}
+    .location_1{width: auto; height: auto;margin:20px 0px}
+    .loc_sec{padding: 0px;}
+    .industries-info{padding: 15px 20px;}
+    .who-we-are-company{padding: 0px 15px; margin-top: 40px;}
     .industries-info-block, .why-eshocan-parent, .project-discuss, .project-discuss,
     .project-discuss-block .project-disccuss-form{display: block;}
     .form-block-group{width: 100%;}
@@ -1208,7 +1254,7 @@ margin-left: 2px;
     .blog-content-block:last-child{margin-bottom: 20px;}
     .testimonial .slick-prev, .testimonial .slick-next{bottom:-9%}
     .eshocan_social_media ul{justify-content: center;align-items: center;}
-    .eshocan_hero_section{min-height: auto; padding-bottom: 20px;background-color: #000;}
+    .eshocan_hero_section{min-height: 77vh; padding-bottom: 0px;background-color: #000;}
     .eshocan_hero_media_small img{ width:90%; border-radius:0px ; -webkit-border-radius:0px ; -moz-border-radius:0px ; -ms-border-radius:0px ; -o-border-radius:0px ; }
     .eshocan_hero_media_small{display: flex;    justify-content: space-evenly;align-items: flex-start;}
     .eshocan_hero_desc h1{font-size: 26px;line-height: 43px;margin: 0px 0px;}
@@ -1271,14 +1317,14 @@ margin-left: 2px;
     .who-we-are-company-parent{display: block; padding: 10px;}
     .who-we-are-company-parent h1{font-size: 27px;line-height: 32px;}
     .who-we-are-company-parent p{font-size: 17px;line-height: 26px;}
-    .industries-info-block-intership{display: block; padding: 10px;}
+    .industries-info-block-intership{display: block; padding: 10px;margin-top:0px}
     .row{display: block;}
     .card-section{display: block;}
     .teams_img{display: none;}
     .teams_img_responsive{display: block;padding: auto;width: 80%;}
     .industries-info-block-vs{display: block;}
     .automative-expertise-block-parent{display: block;padding: auto;}
-    .casestudy_pages{padding:0px 15px;width: 100%;}
+    .casestudy_pages{padding:0px 15px;max-width: 100%;}
     .casestudy_pages img{width: 100%; padding: 0px;}
     .hmi_img{background: url(../img/hmi/mainmedia.png) top no-repeat;;padding: 300px; background-size: 101% 101%; margin-bottom: 50px;margin-top: 20px;}
     .popup-video video{width: 80%; top: 20%;}
