@@ -1189,6 +1189,12 @@ margin-left: 2px;
     .company-info-content-head-auto-main{margin-left: 0px;}
     .company-info-content-head-auto-main{line-height: 30px;}
     .company-industry{padding: 0px 15px!important;}
+    .casestudy{overflow: hidden;}
+    .inlinecasestudy{justify-content: space-between;}
+    .layer h3{left: 0px;}
+    .casestudy-col img{width: 100%;}
+    .casestudy-col a {display: block;}
+    .industries-info-block{overflow: hidden;}
     /*Vishal Responsive end*/
 
     .intership-application-form{display: block;}
