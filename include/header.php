@@ -1,6 +1,6 @@
 <header>
         <div class="eshocan_header">
-            <a href="index.html" class="mobile-block"><img src="img/PNG.png" class="eshocan_brand_logo" alt="eShocan" title="eShocan"></a>  
+            <a href="index.php" class="mobile-block"><img src="img/PNG.png" class="eshocan_brand_logo" alt="eShocan" title="eShocan"></a>  
                 <nav>
                     <a href="index.html" class="desktop-block"><img src="img/PNG.png" class="eshocan_brand_logo" alt="eShocan" title="eShocan"></a>    
                     <div class="eshocan_nav_links" id="eshocan_navLinks">

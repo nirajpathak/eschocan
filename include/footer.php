@@ -1,7 +1,7 @@
 <footer>
         <div class="eshocan_footer_links_block">
             <div  data-aos="fade-down" data-aos-duration="1000">
-                <a href="index.php"><img src="img/Newlogo.png" class="eshocan_brand_logo" alt="eShocan" title="eShocan"></a>
+                <a href="index.php"><img src="img/Newlogo.png" class="eshocan_brand_logo_logofoot" alt="eShocan" title="eShocan"></a>
                 <p class="eshocan_footer_copy">eShocan is a full-scale engineering services company, mobilizing our industry experience and global network to deliver products from concept to production for the automotive industry and beyond.</p>   
                 <div class="eshocan_social_media desktop-block" >
                     <ul>
@@ -63,17 +63,3 @@
         </div>
         
     </footer>
-
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
-    <script src="https://eshocan.com/wp-content/themes/eshocan/js/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script src="https://kit.fontawesome.com/c8d133034e.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/main.js"></script>
-
-    <script>
-        $(function() {
-            AOS.init();
-        });
-    </script>
