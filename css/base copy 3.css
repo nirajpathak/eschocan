@@ -151,7 +151,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .allPages .eshocan_hero_section.indsutriesBanner{background-image: url(../img/industries/Rectangle.png);}
 .industries-partenr-client img{filter: grayscale(0%);}
 .industries-info-block{display: flex;justify-content: space-between;}
-.industries-info-head{font-size: 40px;line-height: 50px;margin-bottom: 0px;}
+.industries-info-head{font-size: 40px;line-height: 50px;margin-bottom: 0px;text-transform: none;}
 .industries-info-copy{margin-bottom: 20px;margin-top: 20px;}
 .industries-info-copy{font-family: 'Open Sans';
   font-style: normal;
@@ -319,7 +319,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
     .jobCity{font-size: 14px; color:#000}
     .jobTitle span, .jobCity span{color:#000;font-weight: bold;}
     .jobTitle a{color:#026cce;font-weight: bold;}
-    .ScrollDown_career{height: 40px;width: 200px;background-color: red; position: absolute;left: 50%;bottom: 40px; transform: translateX(-50%);cursor: pointer;}
+    .ScrollDown_career{height: 40px;width: 200px;background-color: #fd5f00; position: absolute;left: 50%;bottom: 40px;z-index:99; transform: translateX(-50%);cursor: pointer;}
     .ScrollDown_career p{color: #fff;text-align: center;}
     /*Career End*/
 
