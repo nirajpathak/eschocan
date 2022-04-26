@@ -1153,7 +1153,7 @@ margin-left: 2px;
     .allPages .eshocan_hero_media .video{height: 100vh;}
     .allPages  .eshocan_hero_section{min-height: 60vh;}
     .casestudy h1{font-size: 40px;text-align: center;}
-    .casestudy-col{margin-bottom: 20px !important;}
+    .casestudy-col{margin-bottom: 40px !important;}
     .inpagecasestudy-readall{text-align: center;}
     .project-discuss h2 {font-size: 34px;}
     .form-block-group-accept .form-group-submit{justify-content: center;}
@@ -1195,27 +1195,29 @@ margin-left: 2px;
     .casestudy-col img{width: 100%;}
     .casestudy-col a {display: block;}
     .industries-info-block, .industries-info{overflow: hidden;}
+    .company-industry{margin-top:40px}
+    .ScrollDown_career {border-radius: 5px;}
     /*Vishal Responsive end*/
 
     .intership-application-form{display: block;}
     .application_form{width: 100%;margin-left: 0%;}
     .copyright-design-develope{display: block;}
     .flip-card{width: 100%;padding: 0px;}
-    .industries-info-head{margin-bottom: 20px;font-size: 33px;}
+    .industries-info-head{margin-bottom: 20px;font-size: 30px;}
     .in-vehicale-section .in-vehicale-block{width: 100%;padding: 30px 20px;}
     .in-vehicale-listing, .in-vehicale-copy {padding: 0px 0px;}  
     .industries-info, .why-eshocan, .project-discuss, .automative-expertise {padding: 50px 20px;}
     .company_partner{margin: 0px 0px;padding: 10px;}
     .location_1{width: auto; height: auto;margin:20px 0px}
     .loc_sec{padding: 0px;}
-    .industries-info{padding: 15px 20px;}
+    .industries-info{padding: 15px 20px;margin-top: 0px !important;}
     .who-we-are-company{padding: 0px 15px; margin-top: 40px;}
     .industries-info-block, .why-eshocan-parent, .project-discuss, .project-discuss,
     .project-discuss-block .project-disccuss-form{display: block;}
     .form-block-group{width: 100%;}
     .discuss-form{padding:15px;width: auto;}
     .why-eshocan-block, .why-eshocan-block .who-we-are-bottom ul li{width: 100%;}
-    .industries-info-block img{display: block;max-width: 100%;}
+    .industries-info-block img{display: block;max-width: 100%;margin-left: 0% !important;}
     .project-discuss .project-discuss-block{width:auto;}
     .project-discuss .discuss-form{background-color: #fff;}
     .eshocan_header .mobile-block{margin-top:0px;}
@@ -1327,7 +1329,7 @@ margin-left: 2px;
     .row{display: block;}
     .card-section{display: block;}
     .teams_img{display: none;}
-    .teams_img_responsive{display: block;padding: auto;width: 80%;}
+    .teams_img_responsive{display: block;padding: auto;width: 100%; margin:0 auto;}
     .industries-info-block-vs{display: block;}
     .automative-expertise-block-parent{display: block;padding: auto;}
     .casestudy_pages{padding:0px 15px;max-width: 100%;}
