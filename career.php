@@ -189,7 +189,150 @@
         <h2 class="industries-info-head">Current job opening</h2>
 
         <div class="JobListing" >
-            <ul id="demo"></ul>
+            <ul id="demo">
+      <?php     
+       $query = array(
+		"clientid" => 2283, // Your API key
+		"username" => 'careers@eshocan.com', // Your app credentials (secret key)
+		"password" => 'Chibiko@2022' // Grab the access key from the URL
+	);
+
+	// Generate access token URL   https://api.jobdiva.com/api/authenticate
+	$url = "https://api.jobdiva.com/apiv2/v2/authenticate?clientid=2283&&username=careers@eshocan.com&&password=Chibiko@2022&method=get";
+
+	// Configure curl client and execute request
+      
+    $crl = curl_init();
+    curl_setopt($crl, CURLOPT_URL, $url);
+    curl_setopt($crl, CURLOPT_FRESH_CONNECT, true);
+    curl_setopt($crl, CURLOPT_RETURNTRANSFER, true);
+     
+    $response = curl_exec($crl);
+    if(!$response){
+       die('Error: "' . curl_error($crl) . '" - Code: ' . curl_errno($crl));
+    }
+     
+    curl_close($crl);
+    // print_r('result'.$response);
+	// Store the access token
+	$result = json_decode($response, true);
+	$access_token = $result['token'];
+    $jobID =  isset($_GET['ID'])?$_GET['ID']:'';
+    if($jobID){
+        if($access_token){
+            $url2 = "https://api.jobdiva.com/api/bi/JobsDetail?jobIds=$jobID&alternateFormat=true&method=get";
+        
+
+                $headr = array();
+                $headr[] = 'Content-length: 0';
+                $headr[] = 'Content-type: application/json';
+                $headr[] = 'Authorization:'.$access_token;
+
+                // Configure curl client and execute request
+                
+                $crl = curl_init();
+                
+                curl_setopt($crl, CURLOPT_HTTPHEADER,$headr);
+                curl_setopt($crl, CURLOPT_URL, $url2);
+                curl_setopt($crl, CURLOPT_FRESH_CONNECT, true);
+                curl_setopt($crl, CURLOPT_RETURNTRANSFER, true);
+                
+                $response1 = curl_exec($crl);
+            
+                if(!$response1){
+                die('Error: "' . curl_error($crl) . '" - Code: ' . curl_errno($crl));
+                }
+                
+                curl_close($crl);
+                
+                // Store the access token
+            
+                $jobs = json_decode($response1, true);
+                if($jobs){
+                    
+                    foreach($jobs['data'] as $job){
+                        
+                    ?>  
+                    <li>
+                            <div> <p class='jobTitle'><span>Job Title : </span><a href='career.php?ID=<?php echo $jobID;?>'><?php echo $job['JOBTITLE'];?></a></p></div>
+                            <div> <p class='jobCity'><?php echo $job["CITY"];?>, <?php echo $job["STATE"];?></p></div>
+                            <div> <p class='jobPosition'><span>Positions: </span><?php echo $job["POSITIONS"];?></p></div>
+                            <?php
+                            $shrapnel = explode('<br>', $job["JOBDESCRIPTION"]);
+                            $newStr = '';
+                            for ($i = 0; $i < count($shrapnel); ++$i)  {
+                                // The last piece of the string has no token after it, so we special-case it
+                                if ($i == count($shrapnel) - 1)
+                                    $newStr .= $shrapnel[$i];
+                                else
+                                    $newStr .= $shrapnel[$i] . rand(100,10000);
+                            }
+                            ?>
+                            <div> <p class='jobDesc'><?php echo str_replace('<br>','\n',$newStr);?></p></div>
+                            <div> <p class='jobRemarks'><span>Job Remarks : </span><?php echo $job["REMARKS"];?></p></div>
+                            
+                        
+                        </li>
+
+                <?php   }
+                }else{
+                echo "No Records Found";
+                }
+            echo "<li><a href='career.php'><< Back to job details page </a></li>";
+        }else{
+            echo "No Records Found";
+        }
+    }else{
+        if($access_token){
+            $url2 = "https://api.jobdiva.com/api/bi/OpenJobsList?alternateFormat=true&method=get";
+            
+
+                $headr = array();
+                $headr[] = 'Content-length: 0';
+                $headr[] = 'Content-type: application/json';
+                $headr[] = 'Authorization:'.$access_token;
+
+                // Configure curl client and execute request
+                
+                $crl = curl_init();
+                
+                curl_setopt($crl, CURLOPT_HTTPHEADER,$headr);
+                curl_setopt($crl, CURLOPT_URL, $url2);
+                curl_setopt($crl, CURLOPT_FRESH_CONNECT, true);
+                curl_setopt($crl, CURLOPT_RETURNTRANSFER, true);
+                
+                $response1 = curl_exec($crl);
+            
+                if(!$response1){
+                die('Error: "' . curl_error($crl) . '" - Code: ' . curl_errno($crl));
+                }
+                
+                curl_close($crl);
+                // print_r('result'.$response);
+                // Store the access token
+            
+                $jobs = json_decode($response1, true);
+                if($jobs){
+                    
+                    foreach($jobs['data'] as $job){
+                        
+                        $ji = trim($job['JOBID']);
+                        // echo $ji;
+                        // echo '<li><a href="fetchJobDetails.php?ID='.$ji.'"><span>'.$job['TITLE'].'</span><span> No. of Opening '.$job['OPENINGS'].'</span><span> company name '.$job['COMPANYNAME'].'</span><span> Opening expiry date '.$job['ENDDATE'].'</span></a></li>';
+                    ?>  
+                    <li>
+                            <div> <p class='jobTitle'><span>Job Title : </span><a href='career.php?ID=<?php echo $ji;?>'><?php echo $job['TITLE'];?></a></p></div>
+                            <div> <p class='jobCity'><?php echo $job["CITY"];?>, <?php echo $job["STATE"];?></p></div>
+                        
+                        </li>
+                <?php   }
+                }else{
+                echo "No Records Found";
+                }
+            } 
+            }?>
+           
+            </ul>
         </div>
     </section><!---current-job-opening-->
 
@@ -279,17 +422,17 @@
             document.getElementById("demo").innerHTML = main;
         }
 
-        fetch("career.json")
-             .then( function(resp){
-                return resp.json()
-             })
-             .then(function(data){
-                 console.log(data);
-                 title = data.TITLE;
-                 jobid = data.JOBID;
-                 mainObj = data.data;
-                 showObj(); 
-             })
+        // fetch("career.json")
+        //      .then( function(resp){
+        //         return resp.json()
+        //      })
+        //      .then(function(data){
+        //          console.log(data);
+        //          title = data.TITLE;
+        //          jobid = data.JOBID;
+        //          mainObj = data.data;
+        //          showObj(); 
+        //      })
        
     
     </script>
