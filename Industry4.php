@@ -175,27 +175,27 @@
                 <div class="casestudy-col" style="margin: 1%;">   
                     <img src="img/casestudy/Picture1.png">
                     <p>Lean Production</p>
-                    <a href="casestudy-1.html"><div class="layer">
+                    <a href="casestudy-1.php"><div class="layer">
                         <h3>Lean Production</h3>
                     </div></a>
                 </div>
                 <div class="casestudy-col" style="margin: 1%;">   
                     <img src="img/casestudy/Picture4.png">
                     <p>BIW Spot welding Fixtures Design</p>
-                    <a href="casestudy-4.html"><div class="layer">
+                    <a href="casestudy-4.php"><div class="layer">
                         <h3>BIW Spot welding Fixtures Design</h3>
                     </div></a>
                 </div>
                 <div class="casestudy-col" style="margin: 1%;" >   
                     <img src="img/casestudy/upcoming.jpeg">
                     <p>Upcoming</p>
-                    <a href="casestudy.html"><div class="layer">
+                    <a href="casestudy.php"><div class="layer">
                         <h3>Upcoming</h3>
                     </div></a>
                 </div>
             </div>
             <div class="inpagecasestudy-readall">
-                <a href="casestudy.html" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
+                <a href="casestudy.php" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
             </div>
     
     </section>

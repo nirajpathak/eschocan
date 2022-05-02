@@ -121,7 +121,7 @@
                       <div class="flip-card-back">
                           <h1>Platform<br>Development</h1> 
                           <p>eShocan has the expertise from Concept Engineering including Proof of Concepts development using OS like AGL, QNX Linux and AOSP.</p> 
-                          <a href="Expertise.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="Expertise.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                       <div class="flip-card-back">
                           <h1>HMI Design</h1> 
                           <p>The goals of any human machine interface solution are to keep the driver’s attention on the road, reduce distractions, increase vehicle safety, comfort, and ease of use, and offer options for personalization.</p> 
-                          <a href="Expertise_HMI_Design.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="Expertise_HMI_Design.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -153,7 +153,7 @@
                       <div class="flip-card-back">
                           <h1>Mobile Application<br>Development</h1> 
                           <p>eShocan App development team has experience in mobile devices, in-car systems, web apps and mobile apps</p> 
-                          <a href="Expertise_Mobile_application_development.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="Expertise_Mobile_application_development.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -171,7 +171,7 @@
                       <div class="flip-card-back">
                           <h1>Product<br>Development</h1> 
                           <p>At eShocan, our innovative engineers develop manufacturable, cost-effective new products. Our product development team plans each stage of the product life cycle</p> 
-                          <a href="Expertise_Product_developement.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="Expertise_Product_developement.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
                       <div class="flip-card-back">
                           <h1>Virtual<br>Simulation</h1> 
                           <p>Product development can be costly and time-consuming. To avoid waste, we reduce the product life cycle cost and timeline with computer-aided engineering (CAE) tools</p> 
-                          <a href="Virtual Simulation.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="Virtual Simulation.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -203,7 +203,7 @@
                       <div class="flip-card-back">
                           <h1>Autonomous Driving <br>& ADAS software</h1> 
                           <p>eShocan delivers embedded software services to enhance the component functionality.</p> 
-                          <a href="Expertise_Autonomous_driving.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="Expertise_Autonomous_driving.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -284,7 +284,7 @@
     <div class="flip-card-back">
         <h1>Platform<br>Development</h1> 
         <p>eShocan has the expertise from Concept Engineering including Proof of Concepts development using OS like AGL, QNX Linux and AOSP.</p> 
-        <a href="Aerospace.html">Aero Engines</a>
+        <a href="Aerospace.php">Aero Engines</a>
     </div>
   </div>
 </div>

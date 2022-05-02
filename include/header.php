@@ -2,7 +2,7 @@
         <div class="eshocan_header">
             <a href="index.php" class="mobile-block"><img src="img/PNG.png" class="eshocan_brand_logo" alt="eShocan" title="eShocan"></a>  
                 <nav>
-                    <a href="index.html" class="desktop-block"><img src="img/PNG.png" class="eshocan_brand_logo" alt="eShocan" title="eShocan"></a>    
+                    <a href="index.php" class="desktop-block"><img src="img/PNG.png" class="eshocan_brand_logo" alt="eShocan" title="eShocan"></a>    
                     <div class="eshocan_nav_links" id="eshocan_navLinks">
                         <div class="close"><i class="fa fa-times" aria-hidden="true"></i></div>
                         <ul>
@@ -14,7 +14,7 @@
                                             <a href="services.php">Technology</a>
                                             <ul class="eshocan_nav_lvl-2">
                                                 <li> <a href="in-vehicle-infotainment.php">In-Vehicle Infotainment</a></li>
-                                                <li> <a href="Expertise_HMI_Design.php">HMI Design</a></li>
+                                                <li> <a href="HMI_Design.php">HMI Design</a></li>
                                                 <li> <a href="Connectedmobility.php">Connected mobility</a></li>
                                                 <li> <a href="AutomotiveEmbedded.php">Automotive Embedded</a></li>
                                             </ul>

@@ -286,7 +286,7 @@
     </section>
 -->
     <section class="why-eshocan"> 
-        <h2 class="industries-info-head">Why eShocan? </h2>
+        <h2 class="industries-info-head" style="text-transform: none;">Why eShocan? </h2>
         <div class="why-eshocan-parent">
             <div class="why-eshocan-block">
                 <p class="why-eshocan-copy">eShocan is a full-scale engineering services company, mobilizing our industry experience and global network to deliver products from concept to production for the automotive industry and beyond. Our leadership consists of industry professionals who have spent decades in product development from a global perspective. With a combined 45 years in product development experience and recruiting, our engineering services are the best in the business.</p>
@@ -329,27 +329,27 @@
             <div class="casestudy-col"  style="margin: 1%;">
                 <img src="img/casestudy/Picture8.png">
                 <p>Requirements Engineering</p>
-                <a href="casestudy-8.html"><div class="layer">
+                <a href="casestudy-8.php"><div class="layer">
                     <h3>Requirements Engineering</h3>
                 </div></a>
             </div>
             <div class="casestudy-col" style="margin: 1%;" >   
                 <img src="img/casestudy/upcoming.jpeg">
                 <p>Upcoming</p>
-                <a href="casestudy.html"><div class="layer">
+                <a href="casestudy.php"><div class="layer">
                     <h3>Upcoming</h3>
                 </div></a>
             </div>
             <div class="casestudy-col" style="margin: 1%;" >   
                 <img src="img/casestudy/upcoming.jpeg">
                 <p>Upcoming</p>
-                <a href="casestudy.html"><div class="layer">
+                <a href="casestudy.php"><div class="layer">
                     <h3>Upcoming</h3>
                 </div></a>
             </div>
         </div>
         <div class="inpagecasestudy-readall">
-            <a href="casestudy.html" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
+            <a href="casestudy.php" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
         </div>
     </section>
 

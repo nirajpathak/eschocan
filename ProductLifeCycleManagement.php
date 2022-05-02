@@ -225,27 +225,27 @@
             <div class="casestudy-col" style="margin: 1%;" >
                 <img src="img/casestudy/Picture3.png">
                 <p>Automation of Design Rule Checks in CATIA V5</p>
-                <a href="casestudy-3.html"><div class="layer">
+                <a href="casestudy-3.php"><div class="layer">
                     <h3>Automation of Design Rule Checks in CATIA V5</h3>
                 </div></a>
             </div>
             <div class="casestudy-col" style="margin: 1%;" >   
                 <img src="img/casestudy/Picture7.png">
                 <p>PLM</p>
-                <a href="casestudy-7.html"><div class="layer">
+                <a href="casestudy-7.php"><div class="layer">
                     <h3>PLM</h3>
                 </div></a>
             </div>
             <div class="casestudy-col" style="margin: 1%;" >   
                 <img src="img/casestudy/upcoming.jpeg">
                 <p>Upcoming</p>
-                <a href="casestudy.html"><div class="layer">
+                <a href="casestudy.php"><div class="layer">
                     <h3>Upcoming</h3>
                 </div></a>
             </div>
         </div>
         <div class="inpagecasestudy-readall">
-            <a href="casestudy.html" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
+            <a href="casestudy.php" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
         </div>       
 
     </section>

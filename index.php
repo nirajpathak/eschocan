@@ -25,7 +25,7 @@
                 <h4>We Help Our Clients </h4>
                 <h1>Scale Engineering<br>Capacity</h1>
                 <p>And Deliver Great<br>Products</p>
-                <a href="Company.html" class="hero-btn"> <span>Explore <i class="fas fa-arrow-circle-right"></i></a></span> 
+                <a href="Company.php" class="hero-btn"> <span>Explore <i class="fas fa-arrow-circle-right"></i></a></span> 
                 </a>
             </div>
             <div class="eshocan_hero_media"  >
@@ -55,10 +55,10 @@
                 </div>
                 
                 <div class="eshocan_hero_media_small">
-                    <a href="Teams.html"><img src="img/homepage_teams.png" class="side-img-video" target="12" title="Teams" /> </a>
-                    <a href="services.html"><img src="img/homepage_techservice.png" class="side-img-video" target="9" title="Technology" /></a>
-                    <a href="ProductDevelopment.html"><img src="img/homepage_pe.png" class=" side-img-video" target="10" title="product Engineering" /> </a>
-                    <a href="consulting-and-staffing.html"><img src="img/homepage_it.png" class=" side-img-video" target="11" title="IT Consulting"/></a>
+                    <a href="Teams.php"><img src="img/homepage_teams.png" class="side-img-video" target="12" title="Teams" /> </a>
+                    <a href="services.php"><img src="img/homepage_techservice.png" class="side-img-video" target="9" title="Technology" /></a>
+                    <a href="ProductDevelopment.php"><img src="img/homepage_pe.png" class=" side-img-video" target="10" title="product Engineering" /> </a>
+                    <a href="consulting-and-staffing.php"><img src="img/homepage_it.png" class=" side-img-video" target="11" title="IT Consulting"/></a>
                     
                 </div>
             </div>
@@ -79,7 +79,7 @@
                 <p>
                     With two offices located in US and 2 offices located in India, eShocan is still a flat, flexible, and transparent organization. This allows us to combine the best of both worlds. On the one hand, we’re a reliable, proven Product development, software engineering provider that is able to quickly scale your engineering capacity
                 </p>
-                <a href="Company.html" class="hero-btn"><img src="img/view-more-img.png" alt=""> View More</a>
+                <a href="Company.php" class="hero-btn"><img src="img/view-more-img.png" alt=""> View More</a>
             </div>
 
             <div class="who-we-are-list">
@@ -90,11 +90,11 @@
                     </li>
                     <li data-aos="fade-down"    data-aos-duration="1200">
                         <img src="img/who-we-are.png" alt="">
-                        <p>enable digital technology for our clients</p>
+                        <p>Enable digital technology for our clients</p>
                     </li>
                     <li data-aos="fade-down"   data-aos-duration="1400">
                         <img src="img/who-we-are.png" alt="">
-                        <p>enable digital technology for our clients</p>
+                        <p>A reliable, proven Product development, software engineering provider</p>
                     </li>
                 </ul>
             </div>
@@ -131,58 +131,58 @@
             <div class="row">
                 <div class="col-sup desktop-block">
                     <div class="col" >
-                        <a href="Automotive.html"><img src="img/industries/auto.png" class="side-img"  target="1" data-aos="flip-left" data-aos-duration="1000"></a>
-                        <a href="Automotive.html"><p>AUTOMOTIVE</p></a>
-                        <a href="ElectricMobility.html"><img src="img/industries/elec.png" class="side-img" target="2" data-aos="flip-right" data-aos-duration="1000"> </a>
-                        <a href="ElectricMobility.html"><p>ELECTRIC MOBILITY</p></a>
+                        <a href="Automotive.php"><img src="img/industries/auto.png" class="side-img"  target="1" data-aos="flip-left" data-aos-duration="1000"></a>
+                        <a href="Automotive.php"><p>AUTOMOTIVE</p></a>
+                        <a href="ElectricMobility.php"><img src="img/industries/elec.png" class="side-img" target="2" data-aos="flip-right" data-aos-duration="1000"> </a>
+                        <a href="ElectricMobility.php"><p>ELECTRIC MOBILITY</p></a>
                     </div>   
                     <div class="col-r">
-                        <a href="Heavy Machinery.html"><img src="img/industries/indust1.png" class="side-img"  target="3"  data-aos="flip-right" data-aos-duration="1000"></a>
-                        <a href="Heavy Machinery.html"><p>Industrial Machinery</p></a>
-                        <a href="Off Road.html"><img src="img/industries/offrd.png" class="side-img" target="4"  data-aos="flip-right" data-aos-duration="1000"> </a>
-                        <a href="Off Road.html"><p>Off Road</p></a>
+                        <a href="Heavy Machinery.php"><img src="img/industries/indust1.png" class="side-img"  target="3"  data-aos="flip-right" data-aos-duration="1000"></a>
+                        <a href="Heavy Machinery.php"><p>Industrial Machinery</p></a>
+                        <a href="Off Road.php"><img src="img/industries/offrd.png" class="side-img" target="4"  data-aos="flip-right" data-aos-duration="1000"> </a>
+                        <a href="Off Road.php"><p>Off Road</p></a>
                     </div>    
                 </div>
                 <div class="col-sup-mid automotive active" id="div1">
-                        <a href="Automotive.html"><img src="img/industries/auto.png"  data-aos="fade-up" data-aos-duration="1000"></a>
-                        <a href="Automotive.html"><h3 id="midHead" data-aos="fade-up" data-aos-duration="1200">AUTOMOTIVE</h3></a>
-                        <a href="Automotive.html"><p id="midDesc" data-aos="fade-up" data-aos-duration="1300">eShocan is a partner to global automotive OEMs and Tier 1 suppliers, providing expertise in multiple domains for full vehicle systems and subsystem development.</p></a>
+                        <a href="Automotive.php"><img src="img/industries/auto.png"  data-aos="fade-up" data-aos-duration="1000"></a>
+                        <a href="Automotive.php"><h3 id="midHead" data-aos="fade-up" data-aos-duration="1200">AUTOMOTIVE</h3></a>
+                        <a href="Automotive.php"><p id="midDesc" data-aos="fade-up" data-aos-duration="1300">eShocan is a partner to global automotive OEMs and Tier 1 suppliers, providing expertise in multiple domains for full vehicle systems and subsystem development.</p></a>
                 </div>
                 <div class="col-sup-mid ELECTRIC-MOBILITY"  id="div2">
-                    <a href="ElectricMobility.html"><img src="img/industries/elec.png"></a>
-                    <a href="ElectricMobility.html"><h3 id="midHead">ELECTRIC MOBILITY</h3></a>
-                    <a href="ElectricMobility.html"><p id="midDesc">From electric cars to electric bikes, our engineers can accelerate electric drivetrain development.</p></a>
+                    <a href="ElectricMobility.php"><img src="img/industries/elec.png"></a>
+                    <a href="ElectricMobility.php"><h3 id="midHead">ELECTRIC MOBILITY</h3></a>
+                    <a href="ElectricMobility.php"><p id="midDesc">From electric cars to electric bikes, our engineers can accelerate electric drivetrain development.</p></a>
                 </div>
                 <div class="col-sup-mid INDUSTRIAL-MACHINERY" id="div3">
-                    <a href="Heavy Machinery.html"><img src="img/industries/indust.png" ></a>
-                    <a href="Heavy Machinery.html"><h3 id="midHead">INDUSTRIAL MACHINERY</h3></a>
-                    <a href="Heavy Machinery.html"><p id="midDesc">Our process allows us to customize designs to meet varying international standards, which enables our clients to rapidly bring products to new markets.</p></a>
+                    <a href="Heavy Machinery.php"><img src="img/industries/indust.png" ></a>
+                    <a href="Heavy Machinery.php"><h3 id="midHead">INDUSTRIAL MACHINERY</h3></a>
+                    <a href="Heavy Machinery.php"><p id="midDesc">Our process allows us to customize designs to meet varying international standards, which enables our clients to rapidly bring products to new markets.</p></a>
                 </div>
                 <div class="col-sup-mid OFF-ROAD" id="div4">
-                    <a href="Off Road.html"><img src="img/industries/offrd.png"></a>
-                    <a href="Off Road.html"><h3 id="midHead">OFF ROAD</h3></a>
-                    <a href="Off Road.html"><p id="midDesc">We don’t just design cars. Our engineering services extend to clients who want to deliver the best recreational vehicles to the market.</p></a>
+                    <a href="Off Road.php"><img src="img/industries/offrd.png"></a>
+                    <a href="Off Road.php"><h3 id="midHead">OFF ROAD</h3></a>
+                    <a href="Off Road.php"><p id="midDesc">We don’t just design cars. Our engineering services extend to clients who want to deliver the best recreational vehicles to the market.</p></a>
                 </div>
 
                 <div class="col-sup-mid HEALTHCARE" id="div5">
-                    <a href="Healthcare.html"><img src="img/industries/health.png" ></a>
-                    <a href="Healthcare.html"><h3 id="midHead">HEALTHCARE</h3></a>
-                    <a href="Healthcare.html"><p id="midDesc">Our engineers can ensure the success of your next investment in new and improved medical device technology.</p></a>
+                    <a href="Healthcare.php"><img src="img/industries/health.png" ></a>
+                    <a href="Healthcare.php"><h3 id="midHead">HEALTHCARE</h3></a>
+                    <a href="Healthcare.php"><p id="midDesc">Our engineers can ensure the success of your next investment in new and improved medical device technology.</p></a>
                 </div>
                 <div class="col-sup-mid TRANSPORTATION" id="div6">
-                    <a href="Transportion.html"><img src="img/industries/Transportation-rail.png"></a>
-                    <a href="Transportion.html"><h3 id="midHead">TRANSPORTATION</h3></a>
-                    <a href="Transportion.html"><p id="midDesc">OnTrack or Off Track, our solutions will ensure all your projects are always OnTrack. Post Covid work has changed the Travel landscape and at eShocan we are well equipped to support the change </p></a>
+                    <a href="Transportion.php"><img src="img/industries/Transportation-rail.png"></a>
+                    <a href="Transportion.php"><h3 id="midHead">TRANSPORTATION</h3></a>
+                    <a href="Transportion.php"><p id="midDesc">OnTrack or Off Track, our solutions will ensure all your projects are always OnTrack. Post Covid work has changed the Travel landscape and at eShocan we are well equipped to support the change </p></a>
                 </div>
                 <div class="col-sup-mid AEROSPACE-DEFENSE" id="div7">
-                    <a href="Aerospace.html"><img src="img/industries/aerospace-defence.png"></a>
-                    <a href="Aerospace.html"><h3 id="midHead">AEROSPACE &amp; DEFENSE</h3></a>
-                    <a href="Aerospace.html"><p id="midDesc">With over 20+ experience in the aerospace industry, our in-house experts cater to both Civil and Military Aviation’s requirement</p></a>
+                    <a href="Aerospace.php"><img src="img/industries/aerospace-defence.png"></a>
+                    <a href="Aerospace.php"><h3 id="midHead">AEROSPACE &amp; DEFENSE</h3></a>
+                    <a href="Aerospace.php"><p id="midDesc">With over 20+ experience in the aerospace industry, our in-house experts cater to both Civil and Military Aviation’s requirement</p></a>
                 </div>
                 <div class="col-sup-mid AERO-ENGINES" id="div8">
-                    <a href="Aerospace.html"><img src="img/industries/aero-engines.png"></a>
-                    <a href="Aerospace.html"><h3 id="midHead">AERO ENGINES</h3></a>
-                    <a href="Aerospace.html"><p id="midDesc">eShocan is a partner to global automotive OEMs and Tier 1 suppliers, providing expertise in multiple domains for full vehicle systems and subsystem development.</p></a>
+                    <a href="Aerospace.php"><img src="img/industries/aero-engines.png"></a>
+                    <a href="Aerospace.php"><h3 id="midHead">AERO ENGINES</h3></a>
+                    <a href="Aerospace.php"><p id="midDesc">eShocan is a partner to global automotive OEMs and Tier 1 suppliers, providing expertise in multiple domains for full vehicle systems and subsystem development.</p></a>
                 </div>
 
                 <div class="mobile-block"  data-aos="fade-right" data-aos-duration="1000">
@@ -235,15 +235,15 @@
                 <div class="col-sup desktop-block">
                     <div class="col">
                         <img src="img/industries/health1.png" class="side-img" id="HEALTHCARE" target="5"  data-aos="flip-right" data-aos-duration="1000">
-                        <a href="Healthcare.html"><p>HEALTHCARE</p></a>
+                        <a href="Healthcare.php"><p>HEALTHCARE</p></a>
                         <img src="img/industries/Transportation-rail.png" class="side-img" id="TRANSPORTATION" target="6"  data-aos="flip-right" data-aos-duration="1000">
-                        <a href="Transportion.html"></a><p>TRANSPORTATION</p></a>
+                        <a href="Transportion.php"></a><p>TRANSPORTATION</p></a>
                     </div>   
                     <div class="col-r">
                         <img src="img/industries/aerospace-defence.png" class="side-img" id="AEROSPACE-DEFENSE" target="7"  data-aos="flip-left" data-aos-duration="1000">
-                        <a href="Aerospace.html"></a><p>AEROSPACE &amp; DEFENSE</p></a>
+                        <a href="Aerospace.php"></a><p>AEROSPACE &amp; DEFENSE</p></a>
                         <img src="img/industries/aero-engines.png" class="side-img" target="8"  data-aos="flip-left" data-aos-duration="1000"> 
-                        <a href="Aerospace.html"></a><p>AERO ENGINES</p></a>
+                        <a href="Aerospace.php"></a><p>AERO ENGINES</p></a>
                     </div>
                 </div>
             </div>
@@ -283,7 +283,7 @@
             <div><img src="img/client/image-14.png" alt=""></div>
         </div>
     </section> <!---partner-client-->
-
+<!--
     <section class="partners-testimonal" data-aos="fade-up" data-aos-duration="1000">
         <div class="partners-testimonal-slider">
             <div class="partners-testimonal-block">
@@ -303,7 +303,8 @@
                 <img src="img/client-slider-logo.png" alt="" class="block-img">
             </div>
         </div>
-    </section><!--partners-testimonal-->
+    </section>
+partners-testimonal-->
 
     <section class="blog-list">
         <div class="blog">
@@ -313,13 +314,13 @@
             <div class="blog-img-block">
                 <div class="blog-img-block-child">
                     <div class="blog-content-block" data-aos="fade-up" data-aos-duration="1000">
-                        <a href="casestudy-10.html">
+                        <a href="casestudy-10.php">
                             <img src="img/blog/home12.png" alt="">
                             <p>CAE Driven</p>
                         </a>
                     </div>
                     <div class="blog-content-block" data-aos="fade-up" data-aos-duration="1200">
-                        <a href="blog-3.html">
+                        <a href="blog-3.php">
                             <img src="img/blog/home4.png" alt="">
                             <p>Virtual Prototyping</p>
                         </a>
@@ -328,13 +329,13 @@
 
                 <div class="blog-img-block-child">
                     <div class="blog-content-block automotive-img" data-aos="fade-up" data-aos-duration="1000">
-                        <a href="blog-2.html">
+                        <a href="blog-2.php">
                             <img src="img/blog/Home2.png" alt="">
                             <p>Team Building</p>
                         </a>
                     </div>
                     <div class="blog-content-block" data-aos="fade-up" data-aos-duration="1200">
-                        <a href="blog-1.html">
+                        <a href="blog-1.php">
                             <img src="img/blog/Home3.png" alt="">
                             <p>ADAS control systems</p>
                         </a>
@@ -348,19 +349,19 @@
     <section class="blog-list">
         <div class="blog case-study">
             <div class="blog-title-block" data-aos="zoom-in" data-aos-duration="1000">
-                <h2>Case<br/>Studies</h2>
+                <h2>Case<br/> Studies</h2>
             </div>
 
             <div class="blog-img-block">
                 <div class="blog-img-block-child">
                     <div class="blog-content-block automotive-img " data-aos="fade-up" data-aos-duration="1000">
-                        <a href="casestudy-1.html">
+                        <a href="casestudy-1.php">
                             <img src="img/casestudy/home1.png" alt="">
                             <p>Lean Production</p>
                         </a>
                     </div>
                     <div class="blog-content-block" data-aos="fade-up" data-aos-duration="1200">
-                        <a href="casestudy-2.html">
+                        <a href="casestudy-2.php">
                             <img src="img/casestudy/home2.png" alt="">
                             <p>Aeroengines</p>
                         </a>
@@ -368,13 +369,13 @@
                 </div>
                 <div class="blog-img-block-child">
                     <div class="blog-content-block" data-aos="fade-up" data-aos-duration="1000">
-                        <a href="casestudy-3.html">
+                        <a href="casestudy-3.php">
                             <img src="img/casestudy/home3.png" alt="">
                             <p>Design Rule</p>
                         </a>
                     </div>
                     <div class="blog-content-block" data-aos="fade-up" data-aos-duration="1200">
-                        <a href="casestudy-4.html">
+                        <a href="casestudy-4.php">
                             <img src="img/casestudy/home4.png" alt="">
                             <p>BIW Spot welding</p>
                         </a>
@@ -395,7 +396,7 @@
                 <p class="people-culture-copy-block-heading" data-aos="fade-up" data-aos-duration="1000">We create a comfortable and encouraging workplace environment for our teams to grow, develop, and design innovative solutions.</p>
                 <p class="people-culture-copy-block-question" data-aos="fade-up" data-aos-duration="1200">Why Join eshocan?</p>
                 <p class="people-culture-copy-block-copy" data-aos="fade-up" data-aos-duration="1400">As an employee-focused company, eShocan offers an attractive career trajectory with room for growth and benefits to support your family and financial goals.</p>
-                <a href="career.html" class="hero-btn" data-aos="fade-up" data-aos-duration="1500"><img src="img/view-more-img.png" alt=""> View More</a>
+                <a href="career.php" class="hero-btn" data-aos="fade-up" data-aos-duration="1500"><img src="img/view-more-img.png" alt=""> View More</a>
             </div>
         </div><!--people-culture-block-->
     </section><!--people-culture-->

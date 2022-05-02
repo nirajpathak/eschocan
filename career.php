@@ -188,7 +188,7 @@
     <section class="current-job-opening" id="JobListing"> 
         <h2 class="industries-info-head">Current job opening</h2>
 
-        <div class="JobListing" >
+        <div class="JobListing">
             <ul id="demo">
       <?php     
        $query = array(
@@ -255,7 +255,9 @@
                     ?>  
                     <li>
                             <div> <p class='jobTitle'><span>Job Title : </span><a href='career.php?ID=<?php echo $jobID;?>'><?php echo $job['JOBTITLE'];?></a></p></div>
+                            <br>
                             <div> <p class='jobCity'><?php echo $job["CITY"];?>, <?php echo $job["STATE"];?></p></div>
+                            <br>
                             <div> <p class='jobPosition'><span>Positions: </span><?php echo $job["POSITIONS"];?></p></div>
                             <?php
                             $shrapnel = explode('<br>', $job["JOBDESCRIPTION"]);
@@ -268,7 +270,9 @@
                                     $newStr .= $shrapnel[$i] . rand(100,10000);
                             }
                             ?>
-                            <div> <p class='jobDesc'><?php echo str_replace('<br>','\n',$newStr);?></p></div>
+                            <br>
+                            <div style="padding-right: 50%"> <p class='jobDesc'><?php echo str_replace('<br>','\n',$newStr);?></p></div>
+                            <br>
                             <div> <p class='jobRemarks'><span>Job Remarks : </span><?php echo $job["REMARKS"];?></p></div>
                             
                         

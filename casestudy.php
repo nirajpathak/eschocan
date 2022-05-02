@@ -40,21 +40,21 @@
             <div class="casestudy-col">   
                 <img src="img/casestudy/Picture1.png">
                 <p>Lean Production</p>
-                <a href="casestudy-1.html"><div class="layer">
+                <a href="casestudy-1.php"><div class="layer">
                     <h3>Lean Production</h3>
                 </div></a>
             </div>
             <div class="casestudy-col">
                 <img src="img/casestudy/Picture2.png">
                 <p>Aeroengines-Service Cost reduction</p>
-                <a href="casestudy-2.html"><div class="layer">
+                <a href="casestudy-2.php"><div class="layer">
                     <h3>Aeroengines-Service Cost reduction</h3>
                 </div></a>
             </div>
             <div class="casestudy-col">
                 <img src="img/casestudy/Picture3.png">
                 <p>Automation of Design Rule Checks in CATIA V5</p>
-                <a href="casestudy-3.html"><div class="layer">
+                <a href="casestudy-3.php"><div class="layer">
                     <h3>Automation of Design Rule Checks in CATIA V5</h3>
                 </div></a>
             </div>
@@ -64,21 +64,21 @@
             <div class="casestudy-col">   
                 <img src="img/casestudy/Picture4.png">
                 <p>BIW Spot welding Fixtures Design</p>
-                <a href="casestudy-4.html"><div class="layer">
+                <a href="casestudy-4.php"><div class="layer">
                     <h3>BIW Spot welding Fixtures Design</h3>
                 </div></a>
             </div>
             <div class="casestudy-col">
                 <img src="img/casestudy/Picture5.png">
                 <p>Model Based Development</p>
-                <a href="casestudy-5.html"><div class="layer">
+                <a href="casestudy-5.php"><div class="layer">
                     <h3>Model Based Development</h3>
                 </div></a>
             </div>
             <div class="casestudy-col">
                 <img src="img/casestudy/Picture6.png">
                 <p>Platform Development</p>
-                <a href="casestudy-6.html"><div class="layer">
+                <a href="casestudy-6.php"><div class="layer">
                     <h3>Platform Development</h3>
                 </div></a>
             </div>
@@ -88,21 +88,21 @@
             <div class="casestudy-col">   
                 <img src="img/casestudy/Picture7.png">
                 <p>PLM</p>
-                <a href="casestudy-7.html"><div class="layer">
+                <a href="casestudy-7.php"><div class="layer">
                     <h3>PLM</h3>
                 </div></a>
             </div>
             <div class="casestudy-col">
                 <img src="img/casestudy/Picture8.png">
                 <p>Requirements Engineering</p>
-                <a href="casestudy-8.html"><div class="layer">
+                <a href="casestudy-8.php"><div class="layer">
                     <h3>Requirements Engineering</h3>
                 </div></a>
             </div>
             <div class="casestudy-col">
                 <img src="img/casestudy/Picture9.png">
                 <p>QC Checksheet</p>
-                <a href="casestudy-9.html"><div class="layer">
+                <a href="casestudy-9.php"><div class="layer">
                     <h3>QC Checksheet</h3>
                 </div></a>
             </div>
@@ -112,21 +112,21 @@
             <div class="casestudy-col">   
                 <img src="img/casestudy/Picture10.png">
                 <p>CAE Driven headlamp performance</p>
-                <a href="casestudy-10.html"><div class="layer">
+                <a href="casestudy-10.php"><div class="layer">
                     <h3>CAE Driven headlamp performance</h3>
                 </div></a>
             </div>
             <div class="casestudy-col">
                 <img src="img/casestudy/Picture11.png">
                 <p>Surround view camera Package</p>
-                <a href="casestudy-11.html"><div class="layer">
+                <a href="casestudy-11.php"><div class="layer">
                     <h3>surround view camera Package</h3>
                 </div></a>
             </div>
             <div class="casestudy-col">
                 <img src="img/casestudy/Picture12.png">
                 <p>Aeroengines-Service Cost reduction</p>
-                <a href="casestudy-12.html"><div class="layer">
+                <a href="casestudy-12.php"><div class="layer">
                     <h3>Aeroengines-Service Cost reduction</h3>
                 </div></a>
             </div>

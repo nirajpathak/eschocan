@@ -91,7 +91,7 @@
                         Very strong experience with Linux or QNX OS/file system
                     </li>
                 </ul>
-                <a href="Expertise.html" class="hero-btn"><img src="img/view-more-img.png" alt=""> View More</a>  
+                <a href="Expertise.php" class="hero-btn"><img src="img/view-more-img.png" alt=""> View More</a>  
 
             </div><!--in-vehicale-listing-parent-->
         </div><!--in-vehicale-block-->
@@ -122,7 +122,7 @@
                         We worked with OEMs providing technical input to RFP/RFQ responses.
                     </li>
                 </ul>
-                <a href="Expertise_Mobile_application_development.html" class="hero-btn"><img src="img/view-more-img.png" alt=""> View More</a>  
+                <a href="Expertise_Mobile_application_development.php" class="hero-btn"><img src="img/view-more-img.png" alt=""> View More</a>  
 
             </div><!--in-vehicale-listing-parent-->
         </div><!--in-vehicale-block-->
@@ -175,7 +175,7 @@
                         Linux-OS compliance with GenIVI/AGL standard
                     </li>
                 </ul>
-                <a href="Expertise_HMI_Design.html" class="hero-btn"><img src="img/view-more-img.png" alt=""> View More</a>  
+                <a href="Expertise_HMI_Design.php" class="hero-btn"><img src="img/view-more-img.png" alt=""> View More</a>  
 
             </div><!--in-vehicale-listing-parent-->
         </div><!--in-vehicale-block-->
@@ -233,28 +233,28 @@ Vehicle Spy, INCA, AutoVAL
             <div class="casestudy-col" style="margin: 1%;">
                 <img src="img/casestudy/Picture5.png">
                 <p>Model Based Development</p>
-                <a href="casestudy-5.html"><div class="layer">
+                <a href="casestudy-5.php"><div class="layer">
                     <h3>Model Based Development</h3>
                 </div></a>
             </div>
             <div class="casestudy-col" style="margin: 1%;">
                 <img src="img/casestudy/Picture6.png">
                 <p>Platform Development</p>
-                <a href="casestudy-6.html"><div class="layer">
+                <a href="casestudy-6.php"><div class="layer">
                     <h3>Platform Development</h3>
                 </div></a>
             </div>
             <div class="casestudy-col" style="margin: 1%;">
                 <img src="img/casestudy/Picture8.png">
                 <p>Requirements Engineering</p>
-                <a href="casestudy-8.html"><div class="layer">
+                <a href="casestudy-8.php"><div class="layer">
                     <h3>Requirements Engineering</h3>
                 </div></a>
             </div>
             
         </div>
         <div class="inpagecasestudy-readall">
-            <a href="casestudy.html" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
+            <a href="casestudy.php" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
         </div>
     </section>
    

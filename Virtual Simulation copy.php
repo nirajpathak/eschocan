@@ -352,7 +352,7 @@
                       <div class="flip-card-back">
                           <h1>Autonomous Driving<br>& ADAS</h1> 
                           <p>Automate driving with immediate response to the road situations</p> 
-                          <a href="Expertise_Autonomous_driving.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="Expertise_Autonomous_driving.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -368,7 +368,7 @@
                       <div class="flip-card-back">
                           <h1>Human Machine<br>Interface</h1> 
                           <p>Integrate apps, screens, and infotainment systems</p> 
-                          <a href="Expertise_HMI_Design.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="Expertise_HMI_Design.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -384,7 +384,7 @@
                       <div class="flip-card-back">
                           <h1>Mobile Application<br>Development</h1> 
                           <p>Develop, test and integrate Mobile software application</p> 
-                          <a href="Expertise_Mobile_application_development.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="Expertise_Mobile_application_development.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -402,7 +402,7 @@
                       <div class="flip-card-back">
                           <h1>Automotive software<br>testing & Compliance</h1> 
                           <p>Our quality control and testing methodology fully complies with industry standards.</p> 
-                          <a href="in-vehicle-infotainment.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="in-vehicle-infotainment.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -418,7 +418,7 @@
                       <div class="flip-card-back">
                           <h1>Functional Safety<br>(ISO 26262)</h1> 
                           <p>Implementation of stringent processes for Safety Concept</p> 
-                          <a href="Expertise_Autonomous_driving.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="Expertise_Autonomous_driving.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -434,7 +434,7 @@
                       <div class="flip-card-back">
                           <h1>Automotive Embedded</h1> 
                           <p>Embedded software services to enhance the component functionality</p> 
-                          <a href="AutomotiveEmbedded.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="AutomotiveEmbedded.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -488,28 +488,28 @@
             <div class="casestudy-col"  style="margin: 1%;">   
                 <img src="img/casestudy/Picture10.png">
                 <p>CAE Driven headlamp performance</p>
-                <a href="casestudy-10.html"><div class="layer">
+                <a href="casestudy-10.php"><div class="layer">
                     <h3>CAE Driven headlamp performance</h3>
                 </div></a>
             </div>
             <div class="casestudy-col" style="margin: 1%;" >   
                 <img src="img/casestudy/upcoming.jpeg">
                 <p>Upcoming</p>
-                <a href="casestudy.html"><div class="layer">
+                <a href="casestudy.php"><div class="layer">
                     <h3>Upcoming</h3>
                 </div></a>
             </div>
             <div class="casestudy-col" style="margin: 1%;" >   
                 <img src="img/casestudy/upcoming.jpeg">
                 <p>Upcoming</p>
-                <a href="casestudy.html"><div class="layer">
+                <a href="casestudy.php"><div class="layer">
                     <h3>Upcoming</h3>
                 </div></a>
             </div>
         </div>
 
         <div class="inpagecasestudy-readall">
-            <a href="casestudy.html" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
+            <a href="casestudy.php" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
         </div>
 
     </section>

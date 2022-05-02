@@ -150,27 +150,27 @@
             <div class="casestudy-col" style="margin: 1%;">
                 <img src="img/casestudy/Picture9.png">
                 <p>QC Checksheet</p>
-                <a href="casestudy-9.html"><div class="layer">
+                <a href="casestudy-9.php"><div class="layer">
                     <h3>QC Checksheet</h3>
                 </div></a>
             </div>
             <div class="casestudy-col"  style="margin: 1%;">
                 <img src="img/casestudy/Picture11.png">
                 <p>Surround view camera Package</p>
-                <a href="casestudy-11.html"><div class="layer">
+                <a href="casestudy-11.php"><div class="layer">
                     <h3>surround view camera Package</h3>
                 </div></a>
             </div>
             <div class="casestudy-col" style="margin: 1%;" >   
                 <img src="img/casestudy/upcoming.jpeg">
                 <p>Upcoming</p>
-                <a href="casestudy.html"><div class="layer">
+                <a href="casestudy.php"><div class="layer">
                     <h3>Upcoming</h3>
                 </div></a>
             </div>
         </div>
         <div class="inpagecasestudy-readall">
-            <a href="casestudy.html" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
+            <a href="casestudy.php" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
         </div>
 
     </section>

@@ -101,6 +101,10 @@
                 </p>
                 
             </div>
+
+           <div style="clip-path: polygon(0% 0%, 100% 50%, 0% 100%, 0% 100%, 0% 50%, 0% 0%); width: 50px; height: 100px; background-color: #FD5F00;">
+            </div>
+
             <div class="newcard" style="padding: 60px 20px; box-shadow: 0px 20px 40px rgb(0 0 0 / 40%);transform: scale(1.05,1.05);">
                 <img src="img/mobile_aapp_dev/2.png" alt="" class="">
                 <p class="internship-info-content-head-auto">
@@ -110,6 +114,10 @@
                     Our engineers handle every stage of development within the scope required, from architecture development to UI/UX design, transforming your product vision into a custom solution. All stages of custom software development involve thorough testing and quality control
                 </p>
             </div>
+
+            <div style="clip-path: polygon(0% 0%, 100% 50%, 0% 100%, 0% 100%, 0% 50%, 0% 0%); width: 50px; height: 100px; background-color: #FD5F00;">
+            </div>
+
             <div class="newcard" style="padding: 60px 20px; box-shadow: 0px 20px 40px rgb(0 0 0 / 40%);transform: scale(1.05,1.05);">
                 <img src="img/mobile_aapp_dev/3.png" alt="" class="">
                 <p class="internship-info-content-head-auto">
@@ -119,6 +127,10 @@
                     After the final release, we take care of the productivity and performance of custom software development solutions. We establish continuous server monitoring, provide general support services, and allocate experts to fix bugs.
                 </p>
             </div>
+
+            <div style="clip-path: polygon(0% 0%, 100% 50%, 0% 100%, 0% 100%, 0% 50%, 0% 0%); width: 50px; height: 100px; background-color: #FD5F00;">
+            </div>
+
             <div class="newcard" style="padding: 60px 20px; box-shadow: 0px 20px 40px rgb(0 0 0 / 40%);transform: scale(1.05,1.05);">
                 <img src="img/mobile_aapp_dev/4.png" alt="" class="">
                 <p class="internship-info-content-head-auto">
@@ -197,7 +209,7 @@
                       <div class="flip-card-back">
                           <h1>Autonomous Driving<br>& ADAS</h1> 
                           <p>Automate driving with immediate response to the road situations</p> 
-                          <a href="Expertise_Autonomous_driving.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="Expertise_Autonomous_driving.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -213,7 +225,7 @@
                       <div class="flip-card-back">
                           <h1>Human Machine<br>Interface</h1> 
                           <p>Integrate apps, screens, and infotainment systems</p> 
-                          <a href="Expertise_HMI_Design.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="Expertise_HMI_Design.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -229,7 +241,7 @@
                       <div class="flip-card-back">
                           <h1>Mobile Application<br>Development</h1> 
                           <p>Develop, test and integrate Mobile software application</p> 
-                          <a href="Expertise_Mobile_application_development.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="Expertise_Mobile_application_development.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -247,7 +259,7 @@
                       <div class="flip-card-back">
                           <h1>Automotive software<br>testing & Compliance</h1> 
                           <p>Our quality control and testing methodology fully complies with industry standards.</p> 
-                          <a href="in-vehicle-infotainment.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="in-vehicle-infotainment.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -263,7 +275,7 @@
                       <div class="flip-card-back">
                           <h1>Functional Safety<br>(ISO 26262)</h1> 
                           <p>Implementation of stringent processes for Safety Concept</p> 
-                          <a href="Expertise_Autonomous_driving.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="Expertise_Autonomous_driving.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -279,7 +291,7 @@
                       <div class="flip-card-back">
                           <h1>Automotive Embedded</h1> 
                           <p>Embedded software services to enhance the component functionality</p> 
-                          <a href="AutomotiveEmbedded.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="AutomotiveEmbedded.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -289,7 +301,7 @@
     </section><!--automative-expertise-->
 
     <section class="why-eshocan"> 
-        <h2 class="industries-info-head">Why eShocan? </h2>
+        <h2 class="industries-info-head" style="text-transform: none;">Why eShocan? </h2>
         <div class="why-eshocan-parent">
             <div class="why-eshocan-block">
                 <p class="why-eshocan-copy">eShocan is a full-scale engineering services company, mobilizing our industry experience and global network to deliver products from concept to production for the automotive industry and beyond. Our leadership consists of industry professionals who have spent decades in product development from a global perspective. With a combined 45 years in product development experience and recruiting, our engineering services are the best in the business.</p>

@@ -297,14 +297,14 @@
             <div class="casestudy-col">
                 <img src="img/casestudy/Picture3.png">
                 <p>Automation of Design Rule Checks in CATIA V5</p>
-                <a href="casestudy-3.html"><div class="layer">
+                <a href="casestudy-3.php"><div class="layer">
                     <h3>Automation of Design Rule Checks in CATIA V5</h3>
                 </div></a>
             </div>
             <div class="casestudy-col">   
                 <img src="img/casestudy/Picture7.png">
                 <p>PLM</p>
-                <a href="casestudy-7.html"><div class="layer">
+                <a href="casestudy-7.php"><div class="layer">
                     <h3>PLM</h3>
                 </div></a>
             </div>
@@ -312,7 +312,7 @@
         
 
         <div class="inpagecasestudy-readall">
-            <a href="casestudy.html">Read all Case Studies ></a>
+            <a href="casestudy.php">Read all Case Studies ></a>
         </div>
 
     </section>

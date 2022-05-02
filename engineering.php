@@ -75,7 +75,7 @@
             <div class="engineering-parent-block">
                 <p class="engineering-parent-block-head">Product Design</p>
                 <p class="industries-info-copy">At eShocan, our innovative engineers develop manufacturable, cost-effective new products. Our product development team plans each stage of the product life cycle--conceptualization, design, and development of parts and components--to provide a high-quality deliverable with a quick turnaround.</p>
-                <a href="ProductDevelopment.html" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
+                <a href="ProductDevelopment.php" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
             </div>    
         </div><!--engineering-parent-->
 
@@ -84,7 +84,7 @@
             <div class="engineering-parent-block">
                 <p class="engineering-parent-block-head">Simulation</p>
                 <p class="industries-info-copy">Product development can be costly and time-consuming. To avoid waste, we reduce the product life cycle cost and timeline with computer-aided engineering (CAE) tools. With CAE virtual simulations, we simplify design iterations and limit the number of necessary physical prototypes, making it easier for engineers to improve vehicle performance.</p>
-                <a href="Simulation.html" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
+                <a href="Simulation.php" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
             </div>    
         </div><!--engineering-parent-->
 
@@ -93,7 +93,7 @@
             <div class="engineering-parent-block">
                 <p class="engineering-parent-block-head">R&D</p>
                 <p class="industries-info-copy">At eShocan, we want to help you validate new concepts and prepare your brightest ideas for production. For additional research and development expertise, we partner with ARMIS Corporation</p>
-                <a href="RnD.html" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
+                <a href="RnD.php" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
             </div>    
         </div><!--engineering-parent-->
 
@@ -112,7 +112,7 @@
                   <div class="industries-focus-content">
                        <h3>Automotive</h3>
                        <div class="divide-line"></div>
-                       <p><a href="Automotive.html" class="view-more">View More </a></p>
+                       <p><a href="Automotive.php" class="view-more">View More </a></p>
                   </div>
                </div>
             </div><!--industries-we-focus-block-->
@@ -126,7 +126,7 @@
                     <div class="industries-focus-content">
                         <h3>Electric Mobility</h3>
                         <div class="divide-line"></div>
-                        <p><a href="ElectricMobility.html" class="view-more">View More</a></p>
+                        <p><a href="ElectricMobility.php" class="view-more">View More</a></p>
                    </div>
                 </div>
             </div><!--industries-we-focus-block-->
@@ -144,7 +144,7 @@
                 <div class="industries-focus-content">
                         <h3>Transportation</h3>
                         <div class="divide-line"></div>
-                        <p><a href="Transportion.html" class="view-more">View More</a></p>
+                        <p><a href="Transportion.php" class="view-more">View More</a></p>
                     </div>
             </div>
             </div><!--industries-we-focus-block-->
@@ -158,7 +158,7 @@
                     <div class="industries-focus-content">
                         <h3>Aerospace</h3>
                         <div class="divide-line"></div>
-                        <p><a href="Aerospace.html" class="view-more">View More</a></p>
+                        <p><a href="Aerospace.php" class="view-more">View More</a></p>
                 </div>
                 </div>
             </div><!--industries-we-focus-block-->
@@ -175,7 +175,7 @@
             <div class="industries-focus-content">
                     <h3>Industrial Machineries</h3>
                     <div class="divide-line"></div>
-                    <p><a href="Heavy Machinery.html" class="view-more">View More</a></p>
+                    <p><a href="Heavy Machinery.php" class="view-more">View More</a></p>
                 </div>
         </div>
         </div><!--industries-we-focus-block-->
@@ -189,7 +189,7 @@
                 <div class="industries-focus-content">
                     <h3>Healthcare</h3>
                     <div class="divide-line"></div>
-                    <p><a href="Healthcare.html" class="view-more">View More</a></p>
+                    <p><a href="Healthcare.php" class="view-more">View More</a></p>
             </div>
             </div>
         </div><!--industries-we-focus-block-->
@@ -205,7 +205,7 @@
                     <div class="industries-focus-content">
                         <h3>Off Road</h3>
                         <div class="divide-line"></div>
-                        <p><a href="Off Road.html" class="view-more">View More</a></p>
+                        <p><a href="Off Road.php" class="view-more">View More</a></p>
                 </div>
                 </div>
             </div><!--industries-we-focus-block-->
@@ -220,27 +220,27 @@
             <div class="casestudy-col" style="margin: 1%;">
                 <img src="img/casestudy/Picture9.png">
                 <p>QC Checksheet</p>
-                <a href="casestudy-9.html"><div class="layer">
+                <a href="casestudy-9.php"><div class="layer">
                     <h3>QC Checksheet</h3>
                 </div></a>
             </div>
             <div class="casestudy-col"  style="margin: 1%;">   
                 <img src="img/casestudy/Picture10.png">
                 <p>CAE Driven headlamp performance</p>
-                <a href="casestudy-10.html"><div class="layer">
+                <a href="casestudy-10.php"><div class="layer">
                     <h3>CAE Driven headlamp performance</h3>
                 </div></a>
             </div>
             <div class="casestudy-col"  style="margin: 1%;">
                 <img src="img/casestudy/Picture11.png">
                 <p>Surround view camera Package</p>
-                <a href="casestudy-11.html"><div class="layer">
+                <a href="casestudy-11.php"><div class="layer">
                     <h3>surround view camera Package</h3>
                 </div></a>
             </div>
         </div>
         <div class="inpagecasestudy-readall">
-            <a href="casestudy.html" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
+            <a href="casestudy.php" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
         </div>
 
     </section>

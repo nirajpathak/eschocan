@@ -144,10 +144,10 @@
                     Technology 
                 </p>
                 <p class="industries-info-content-copy-teams"style="line-height: 200%;">
-                    <br><a href="in-vehicle-infotainment.html">In Vehicle Infotainment</a>
-                    <br><a href="HMI_Design.html">HMI Design</a>
-                    <br><a href="Connectedmobility.html">Connected Mobility</a>
-                    <br><a href="AutomotiveEmbedded.html">Automotive Embedded</a>
+                    <br><a href="in-vehicle-infotainment.php">In Vehicle Infotainment</a>
+                    <br><a href="HMI_Design.php">HMI Design</a>
+                    <br><a href="Connectedmobility.php">Connected Mobility</a>
+                    <br><a href="AutomotiveEmbedded.php">Automotive Embedded</a>
                 </p>              
             </div>
             <div class="newcard">
@@ -156,22 +156,22 @@
                     Engineering
                 </p>
                 <p class="industries-info-content-copy-teams"style="line-height: 200%;">
-                    <br><a href="ProductDevelopment.html">Product Development</a>
-                    <br><a href="Connectedmobility.html">Simulation</a>
-                    <br><a href="RnD.html">R & D</a>
+                    <br><a href="ProductDevelopment.php">Product Development</a>
+                    <br><a href="Connectedmobility.php">Simulation</a>
+                    <br><a href="RnD.php">R & D</a>
                 </p>
             </div>
             <div class="newcard">
-                <a href="ProductLifeCycleManagement.html"><img src="img/consult/Icon_PLM.png" alt="" class="" style="padding-top: 20%;"></a>
+                <a href="ProductLifeCycleManagement.php"><img src="img/consult/Icon_PLM.png" alt="" class="" style="padding-top: 20%;"></a>
                 <p class="internship-info-content-head-auto">
-                    <a href="ProductLifeCycleManagement.html">PLM</a>
+                    <a href="ProductLifeCycleManagement.php">PLM</a>
                 </p>
                 
             </div>
             <div class="newcard">
-                <a href="Industry4.html"><img src="img/consult/icon_Digital.png" alt="" class=""style="padding-top: 20%;"></a>
+                <a href="Industry4.php"><img src="img/consult/icon_Digital.png" alt="" class=""style="padding-top: 20%;"></a>
                 <p class="internship-info-content-head-auto">
-                    <a href="Industry4.html">Digital 4.0</a>
+                    <a href="Industry4.php">Digital 4.0</a>
                 </p>
                 
             </div>

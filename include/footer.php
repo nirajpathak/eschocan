@@ -43,7 +43,7 @@
                     <li><img src="img/pin.png" alt=""> <a href="">India (Bangalore, KA)</a></li>
                 </ul>
                 <ul class="contact-details">
-                    <li><span><i class="fa fa-phone" aria-hidden="true"></i></span> <a href="">+1 (734)544-1598</a></li>
+                    <li><span><i class="fa fa-phone" aria-hidden="true"></i></span> <a href="">+1 (734) 544-1598</a></li>
                     <li><span><i class="fa fa-envelope" aria-hidden="true"></i></span> <a href="">contactus@eshocan.com</a></li>
                 </ul>
             </div>

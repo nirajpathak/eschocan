@@ -148,7 +148,7 @@
                             <p>Product Verification</p>
                             <p>Product and Process Validation</p>                    
                           </p>
-                          <a href="ProductDevelopment.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="ProductDevelopment.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -171,7 +171,7 @@
                             <p>Occupant Safety</p>
                             <p>Robcad Process Simulation and PLC Programming</p>
                           </p>
-                          <a href="Virtual Simulation.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="Virtual Simulation.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -194,7 +194,7 @@
                               <p>Material Flow Simulation</p>
                               <p>Lightweighting</p>
                             </p> 
-                          <a href="Industry4.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="Industry4.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -215,7 +215,7 @@
                            <p>Staff Augmentation </p>
                            <p>PLM Assessments</p>
                             </p>
-                          <a href="ProductLifeCycleManagement.html" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
+                          <a href="ProductLifeCycleManagement.php" class="hero-btn view-more-card" style="color: black;"><img src="img/view-more-img.png" alt="">View More</a>
                       </div>
                     </div>
                 </div>
@@ -230,7 +230,7 @@
     </section><!--industries-info-->
 
     <section class="why-eshocan"> 
-        <h2 class="industries-info-head">Why eShocan? </h2>
+        <h2 class="industries-info-head" style="text-transform: none;">Why eShocan? </h2>
         <div class="why-eshocan-parent">
             <div class="why-eshocan-block">
                 <p class="why-eshocan-copy">eShocan is a full-scale engineering services company, mobilizing our industry experience and global network to deliver products from concept to production for the automotive industry and beyond. Our leadership consists of industry professionals who have spent decades in product development from a global perspective. With a combined 45 years in product development experience and recruiting, our engineering services are the best in the business.</p>
@@ -274,27 +274,27 @@
             <div class="casestudy-col" style="margin: 1%;">
                 <img src="img/casestudy/Picture9.png">
                 <p>QC Checksheet</p>
-                <a href="casestudy-9.html"><div class="layer">
+                <a href="casestudy-9.php"><div class="layer">
                     <h3>QC Checksheet</h3>
                 </div></a>
             </div>
             <div class="casestudy-col"  style="margin: 1%;">
                 <img src="img/casestudy/Picture11.png">
                 <p>Surround view camera Package</p>
-                <a href="casestudy-11.html"><div class="layer">
+                <a href="casestudy-11.php"><div class="layer">
                     <h3>surround view camera Package</h3>
                 </div></a>
             </div>
             <div class="casestudy-col" style="margin: 1%;" >   
                 <img src="img/casestudy/upcoming.jpeg">
                 <p>Upcoming</p>
-                <a href="casestudy.html"><div class="layer">
+                <a href="casestudy.php"><div class="layer">
                     <h3>Upcoming</h3>
                 </div></a>
             </div>
         </div>
         <div class="inpagecasestudy-readall">
-            <a href="casestudy.html" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
+            <a href="casestudy.php" class="hero-btn"><img src="img/view-more-img.png" alt="">View More</a>
         </div>
 
     </section>
