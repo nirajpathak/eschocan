@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Company</title>
 
@@ -218,7 +218,7 @@
 
         <div class="industries-info-block-intership" data-aos="fade-down" data-aos-duration="1000">
             <div class="company_partner">
-                <a href="http://www.armis.co.jp/en/" target="_blank"><img src="img/client/armis.png" alt="" class="" ></a>
+                <a href="https://www.armis.co.jp/en/" target="_blank"><img src="img/client/armis.png" alt="" class="" ></a>
                 <p class="internship-info-content-head-auto">
                     ARMIS Corporation
                 </p>

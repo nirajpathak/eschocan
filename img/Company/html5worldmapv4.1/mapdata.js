@@ -10,7 +10,7 @@ main_settings:{
     state_description: "Click for a local supplier",
     state_color: "#b5d781",
     state_hover_color: "#8bae54",
-		state_url: 'https://simplemaps.com',
+		state_url: 'httpss://simplemaps.com',
 		border_size: 1.5,		
 		border_color: '#ffffff',
 		all_states_inactive: 'no',

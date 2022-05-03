@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog3</title>
 
@@ -66,7 +66,7 @@
         <p class="blog_parahead">Conclusion</p>
         <p>Electric vehicles are here to stay. However, the EV market will be dominated by the manufacturers that can bring their models to the market fastest. One way they accelerate their EV development is by adopting virtual prototyping.</p>
         <p>When it comes to automotive development, eShocan is the leading name globally in delivering virtual prototyping services that speed up the process. With our skilled team, we have partnered with automotive OEMs and Tier 1 suppliers on product design & development, benchmarking, design optimization, product lifecycle management, etc.</p>
-        <p>For more information about our services, you can reach us through our website (<a href="http://www.eshocan.com/">https://eshocan.com/</a>) or phone/email [INSERT EMAIL OR PHONE NUMBER].</p>
+        <p>For more information about our services, you can reach us through our website (<a href="https://www.eshocan.com/">https://eshocan.com/</a>) or phone/email [INSERT EMAIL OR PHONE NUMBER].</p>
 
 
 

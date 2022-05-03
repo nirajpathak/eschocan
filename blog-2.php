@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CaseStudy</title>
 
@@ -38,7 +38,7 @@
         <img src="img/blog/Picture2.png" class="cs_main">
         <p>For decades one of the most common strategy companies have been using to build successful team is Internship program. Many companies in nearly every industry offer internship programs. They can vary in length, level of responsibility and pay and there are benefits for both the employer and the intern. Taking part in an internship can help intern to gain experience in a career field and lead to opportunities for future jobs. In short team employer invest in training and identifying best candidates based on performance during internship.</p>
         <p>Companies can select and develop future talent through internships and increase their staff retention rates, since many interns secure job offers after their internship ends. As a former intern, you assimilate into the new role faster than an external hire might. Employers can hold various social activities and professional development seminars to learn more about each intern and how they may be a good permanent addition to the team.</p>
-        <p>At eShocan we strive to build diverse team from all over the world. Our internship program has benefitted in building talented team. Check out our internship programs at <a href="http://www.eshocan.com/">www.eShocan.com.</a></p>
+        <p>At eShocan we strive to build diverse team from all over the world. Our internship program has benefitted in building talented team. Check out our internship programs at <a href="https://www.eshocan.com/">www.eShocan.com.</a></p>
         <p>Internship program crafted with the vision i2ee (Internship to eShocan employee) providing training on industry required skills and advance software tools.</p>
         <p style="font-weight: bold;">Types of Internships</p>
         <p>We’re looking for open to learn and dedicated college students from all over United States who have the desire, creativity, impact, and dedication to represent eShocan. You will learn to lead from the front and build vital skills such as Software Development, Engineering, Marketing, Sales and Recruitment throughout the program. </p>
