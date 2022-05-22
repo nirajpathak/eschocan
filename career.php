@@ -192,13 +192,11 @@
             <ul id="demo">
       <?php     
        $query = array(
-		"clientid" => 2283, // Your API key
-		"username" => 'careers@eshocan.com', // Your app credentials (secret key)
-		"password" => 'Chibiko@2022' // Grab the access key from the URL
+		
 	);
 
 	// Generate access token URL   https://api.jobdiva.com/api/authenticate
-	$url = "https://api.jobdiva.com/apiv2/v2/authenticate?clientid=2283&&username=careers@eshocan.com&&password=Chibiko@2022&method=get";
+	$url = "https://api.jobdiva.com/apiv2/v2/authenticate";
 
 	// Configure curl client and execute request
       
